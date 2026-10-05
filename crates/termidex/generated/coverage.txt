@@ -1,0 +1,2134 @@
+termidex data coverage report
+=============================
+
+counts
+------
+species                 1025
+entries                 1530
+  default entries       1025
+  alternate varieties   317
+  alternate forms       188
+types                   19
+generations             [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+sprite blob
+-----------
+source png bytes        4234858
+pngs decoded            3257
+unique sprites stored   3130
+sprites.bin bytes       3497444
+largest palette         733
+
+excluded entries (no sprite) (49)
+----------------------------------
+  mothim-sandy: no front_default sprite
+  mothim-trash: no front_default sprite
+  scatterbug-polar: no front_default sprite
+  scatterbug-tundra: no front_default sprite
+  scatterbug-continental: no front_default sprite
+  scatterbug-garden: no front_default sprite
+  scatterbug-elegant: no front_default sprite
+  scatterbug-meadow: no front_default sprite
+  scatterbug-modern: no front_default sprite
+  scatterbug-marine: no front_default sprite
+  scatterbug-archipelago: no front_default sprite
+  scatterbug-high-plains: no front_default sprite
+  scatterbug-sandstorm: no front_default sprite
+  scatterbug-river: no front_default sprite
+  scatterbug-monsoon: no front_default sprite
+  scatterbug-savanna: no front_default sprite
+  scatterbug-sun: no front_default sprite
+  scatterbug-ocean: no front_default sprite
+  scatterbug-jungle: no front_default sprite
+  scatterbug-fancy: no front_default sprite
+  scatterbug-poke-ball: no front_default sprite
+  spewpa-polar: no front_default sprite
+  spewpa-tundra: no front_default sprite
+  spewpa-continental: no front_default sprite
+  spewpa-garden: no front_default sprite
+  spewpa-elegant: no front_default sprite
+  spewpa-meadow: no front_default sprite
+  spewpa-modern: no front_default sprite
+  spewpa-marine: no front_default sprite
+  spewpa-archipelago: no front_default sprite
+  spewpa-high-plains: no front_default sprite
+  spewpa-sandstorm: no front_default sprite
+  spewpa-river: no front_default sprite
+  spewpa-monsoon: no front_default sprite
+  spewpa-savanna: no front_default sprite
+  spewpa-sun: no front_default sprite
+  spewpa-ocean: no front_default sprite
+  spewpa-jungle: no front_default sprite
+  spewpa-fancy: no front_default sprite
+  spewpa-poke-ball: no front_default sprite
+  zygarde-mega: no front_default sprite
+  koraidon-limited-build: no front_default sprite
+  koraidon-sprinting-build: no front_default sprite
+  koraidon-swimming-build: no front_default sprite
+  koraidon-gliding-build: no front_default sprite
+  miraidon-low-power-mode: no front_default sprite
+  miraidon-drive-mode: no front_default sprite
+  miraidon-aquatic-mode: no front_default sprite
+  miraidon-glide-mode: no front_default sprite
+
+entries without a shiny sprite (0)
+------------------------------------
+
+entries with a female sprite but no shiny female sprite (1)
+-------------------------------------------------------------
+  venusaur-mega
+
+entries whose female sprite is indistinguishable from the default, so has_female is cleared (20)
+-------------------------------------------------------------------------------------------------
+  kangaskhan-mega
+  torchic
+  latias-mega
+  wormadam-plant
+  wormadam-sandy
+  wormadam-trash
+  buizel
+  floatzel
+  froslass-mega
+  lilligant-hisui
+  floette-eternal
+  floette-mega
+  salazzle-totem
+  hatterene-gmax
+  alcremie-gmax
+  enamorus-incarnate
+  enamorus-therian
+  ogerpon-wellspring-mask
+  ogerpon-hearthflame-mask
+  ogerpon-cornerstone-mask
+
+entries whose female is its own entry (--form female), so their female sprite is dropped (6)
+----------------------------------------------------------------------------------------------
+  frillish-male
+  jellicent-male
+  pyroar-male
+  meowstic-male
+  indeedee-male
+  oinkologne-male
+
+species where has_gender_differences disagrees with the sprites on disk (12)
+-----------------------------------------------------------------------------
+  kangaskhan: has_gender_differences is false but female sprites present is true
+  latias: has_gender_differences is false but female sprites present is true
+  wormadam: has_gender_differences is false but female sprites present is true
+  froslass: has_gender_differences is false but female sprites present is true
+  lilligant: has_gender_differences is false but female sprites present is true
+  floette: has_gender_differences is false but female sprites present is true
+  salazzle: has_gender_differences is false but female sprites present is true
+  hatterene: has_gender_differences is false but female sprites present is true
+  alcremie: has_gender_differences is false but female sprites present is true
+  basculegion: has_gender_differences is true but female sprites present is false
+  enamorus: has_gender_differences is false but female sprites present is true
+  ogerpon: has_gender_differences is false but female sprites present is true
+
+species without English flavor text (0)
+-----------------------------------------
+
+entries whose own generation differs from their species' (195)
+--------------------------------------------------------------
+  venusaur-mega: species is gen 1, entry is gen 6
+  venusaur-gmax: species is gen 1, entry is gen 8
+  charizard-mega-x: species is gen 1, entry is gen 6
+  charizard-mega-y: species is gen 1, entry is gen 6
+  charizard-gmax: species is gen 1, entry is gen 8
+  blastoise-mega: species is gen 1, entry is gen 6
+  blastoise-gmax: species is gen 1, entry is gen 8
+  butterfree-gmax: species is gen 1, entry is gen 8
+  beedrill-mega: species is gen 1, entry is gen 6
+  pidgeot-mega: species is gen 1, entry is gen 6
+  rattata-alola: species is gen 1, entry is gen 7
+  raticate-alola: species is gen 1, entry is gen 7
+  raticate-totem-alola: species is gen 1, entry is gen 7
+  pikachu-rock-star: species is gen 1, entry is gen 6
+  pikachu-belle: species is gen 1, entry is gen 6
+  pikachu-pop-star: species is gen 1, entry is gen 6
+  pikachu-phd: species is gen 1, entry is gen 6
+  pikachu-libre: species is gen 1, entry is gen 6
+  pikachu-cosplay: species is gen 1, entry is gen 6
+  pikachu-original-cap: species is gen 1, entry is gen 7
+  pikachu-hoenn-cap: species is gen 1, entry is gen 7
+  pikachu-sinnoh-cap: species is gen 1, entry is gen 7
+  pikachu-unova-cap: species is gen 1, entry is gen 7
+  pikachu-kalos-cap: species is gen 1, entry is gen 7
+  pikachu-alola-cap: species is gen 1, entry is gen 7
+  pikachu-partner-cap: species is gen 1, entry is gen 7
+  pikachu-starter: species is gen 1, entry is gen 7
+  pikachu-world-cap: species is gen 1, entry is gen 8
+  pikachu-gmax: species is gen 1, entry is gen 8
+  raichu-alola: species is gen 1, entry is gen 7
+  raichu-mega-x: species is gen 1, entry is gen 9
+  raichu-mega-y: species is gen 1, entry is gen 9
+  sandshrew-alola: species is gen 1, entry is gen 7
+  sandslash-alola: species is gen 1, entry is gen 7
+  clefable-mega: species is gen 1, entry is gen 9
+  vulpix-alola: species is gen 1, entry is gen 7
+  ninetales-alola: species is gen 1, entry is gen 7
+  diglett-alola: species is gen 1, entry is gen 7
+  dugtrio-alola: species is gen 1, entry is gen 7
+  meowth-alola: species is gen 1, entry is gen 7
+  meowth-galar: species is gen 1, entry is gen 8
+  meowth-gmax: species is gen 1, entry is gen 8
+  persian-alola: species is gen 1, entry is gen 7
+  growlithe-hisui: species is gen 1, entry is gen 8
+  arcanine-hisui: species is gen 1, entry is gen 8
+  alakazam-mega: species is gen 1, entry is gen 6
+  machamp-gmax: species is gen 1, entry is gen 8
+  victreebel-mega: species is gen 1, entry is gen 9
+  geodude-alola: species is gen 1, entry is gen 7
+  graveler-alola: species is gen 1, entry is gen 7
+  golem-alola: species is gen 1, entry is gen 7
+  ponyta-galar: species is gen 1, entry is gen 8
+  rapidash-galar: species is gen 1, entry is gen 8
+  slowpoke-galar: species is gen 1, entry is gen 8
+  slowbro-mega: species is gen 1, entry is gen 6
+  slowbro-galar: species is gen 1, entry is gen 8
+  farfetchd-galar: species is gen 1, entry is gen 8
+  grimer-alola: species is gen 1, entry is gen 7
+  muk-alola: species is gen 1, entry is gen 7
+  gengar-mega: species is gen 1, entry is gen 6
+  gengar-gmax: species is gen 1, entry is gen 8
+  kingler-gmax: species is gen 1, entry is gen 8
+  voltorb-hisui: species is gen 1, entry is gen 8
+  electrode-hisui: species is gen 1, entry is gen 8
+  exeggutor-alola: species is gen 1, entry is gen 7
+  marowak-alola: species is gen 1, entry is gen 7
+  marowak-totem: species is gen 1, entry is gen 7
+  weezing-galar: species is gen 1, entry is gen 8
+  kangaskhan-mega: species is gen 1, entry is gen 6
+  starmie-mega: species is gen 1, entry is gen 9
+  mr-mime-galar: species is gen 1, entry is gen 8
+  pinsir-mega: species is gen 1, entry is gen 6
+  tauros-paldea-combat-breed: species is gen 1, entry is gen 9
+  tauros-paldea-blaze-breed: species is gen 1, entry is gen 9
+  tauros-paldea-aqua-breed: species is gen 1, entry is gen 9
+  gyarados-mega: species is gen 1, entry is gen 6
+  lapras-gmax: species is gen 1, entry is gen 8
+  eevee-starter: species is gen 1, entry is gen 7
+  eevee-gmax: species is gen 1, entry is gen 8
+  aerodactyl-mega: species is gen 1, entry is gen 6
+  snorlax-gmax: species is gen 1, entry is gen 8
+  articuno-galar: species is gen 1, entry is gen 8
+  zapdos-galar: species is gen 1, entry is gen 8
+  moltres-galar: species is gen 1, entry is gen 8
+  dragonite-mega: species is gen 1, entry is gen 9
+  mewtwo-mega-x: species is gen 1, entry is gen 6
+  mewtwo-mega-y: species is gen 1, entry is gen 6
+  meganium-mega: species is gen 2, entry is gen 9
+  typhlosion-hisui: species is gen 2, entry is gen 8
+  feraligatr-mega: species is gen 2, entry is gen 9
+  pichu-spiky-eared: species is gen 2, entry is gen 4
+  ampharos-mega: species is gen 2, entry is gen 6
+  wooper-paldea: species is gen 2, entry is gen 9
+  slowking-galar: species is gen 2, entry is gen 8
+  unown-exclamation: species is gen 2, entry is gen 3
+  unown-question: species is gen 2, entry is gen 3
+  steelix-mega: species is gen 2, entry is gen 6
+  qwilfish-hisui: species is gen 2, entry is gen 8
+  scizor-mega: species is gen 2, entry is gen 6
+  heracross-mega: species is gen 2, entry is gen 6
+  sneasel-hisui: species is gen 2, entry is gen 8
+  corsola-galar: species is gen 2, entry is gen 8
+  skarmory-mega: species is gen 2, entry is gen 9
+  houndoom-mega: species is gen 2, entry is gen 6
+  tyranitar-mega: species is gen 2, entry is gen 6
+  sceptile-mega: species is gen 3, entry is gen 6
+  blaziken-mega: species is gen 3, entry is gen 6
+  swampert-mega: species is gen 3, entry is gen 6
+  zigzagoon-galar: species is gen 3, entry is gen 8
+  linoone-galar: species is gen 3, entry is gen 8
+  gardevoir-mega: species is gen 3, entry is gen 6
+  sableye-mega: species is gen 3, entry is gen 6
+  mawile-mega: species is gen 3, entry is gen 6
+  aggron-mega: species is gen 3, entry is gen 6
+  medicham-mega: species is gen 3, entry is gen 6
+  manectric-mega: species is gen 3, entry is gen 6
+  sharpedo-mega: species is gen 3, entry is gen 6
+  camerupt-mega: species is gen 3, entry is gen 6
+  altaria-mega: species is gen 3, entry is gen 6
+  banette-mega: species is gen 3, entry is gen 6
+  chimecho-mega: species is gen 3, entry is gen 9
+  absol-mega: species is gen 3, entry is gen 6
+  absol-mega-z: species is gen 3, entry is gen 9
+  glalie-mega: species is gen 3, entry is gen 6
+  salamence-mega: species is gen 3, entry is gen 6
+  metagross-mega: species is gen 3, entry is gen 6
+  latias-mega: species is gen 3, entry is gen 6
+  latios-mega: species is gen 3, entry is gen 6
+  kyogre-primal: species is gen 3, entry is gen 6
+  groudon-primal: species is gen 3, entry is gen 6
+  rayquaza-mega: species is gen 3, entry is gen 6
+  staraptor-mega: species is gen 4, entry is gen 9
+  lopunny-mega: species is gen 4, entry is gen 6
+  garchomp-mega: species is gen 4, entry is gen 6
+  garchomp-mega-z: species is gen 4, entry is gen 9
+  lucario-mega: species is gen 4, entry is gen 6
+  lucario-mega-z: species is gen 4, entry is gen 9
+  abomasnow-mega: species is gen 4, entry is gen 6
+  gallade-mega: species is gen 4, entry is gen 6
+  froslass-mega: species is gen 4, entry is gen 9
+  dialga-origin: species is gen 4, entry is gen 8
+  palkia-origin: species is gen 4, entry is gen 8
+  heatran-mega: species is gen 4, entry is gen 9
+  darkrai-mega: species is gen 4, entry is gen 9
+  arceus-fairy: species is gen 4, entry is gen 6
+  emboar-mega: species is gen 5, entry is gen 9
+  samurott-hisui: species is gen 5, entry is gen 8
+  excadrill-mega: species is gen 5, entry is gen 9
+  audino-mega: species is gen 5, entry is gen 6
+  scolipede-mega: species is gen 5, entry is gen 9
+  lilligant-hisui: species is gen 5, entry is gen 8
+  basculin-white-striped: species is gen 5, entry is gen 8
+  darumaka-galar: species is gen 5, entry is gen 8
+  darmanitan-galar-standard: species is gen 5, entry is gen 8
+  darmanitan-galar-zen: species is gen 5, entry is gen 8
+  scrafty-mega: species is gen 5, entry is gen 9
+  yamask-galar: species is gen 5, entry is gen 8
+  garbodor-gmax: species is gen 5, entry is gen 8
+  zorua-hisui: species is gen 5, entry is gen 8
+  zoroark-hisui: species is gen 5, entry is gen 8
+  eelektross-mega: species is gen 5, entry is gen 9
+  chandelure-mega: species is gen 5, entry is gen 9
+  stunfisk-galar: species is gen 5, entry is gen 8
+  golurk-mega: species is gen 5, entry is gen 9
+  braviary-hisui: species is gen 5, entry is gen 8
+  chesnaught-mega: species is gen 6, entry is gen 9
+  delphox-mega: species is gen 6, entry is gen 9
+  greninja-battle-bond: species is gen 6, entry is gen 7
+  greninja-ash: species is gen 6, entry is gen 7
+  greninja-mega: species is gen 6, entry is gen 9
+  pyroar-mega: species is gen 6, entry is gen 9
+  floette-mega: species is gen 6, entry is gen 9
+  meowstic-male-mega: species is gen 6, entry is gen 9
+  meowstic-female-mega: species is gen 6, entry is gen 9
+  malamar-mega: species is gen 6, entry is gen 9
+  barbaracle-mega: species is gen 6, entry is gen 9
+  dragalge-mega: species is gen 6, entry is gen 9
+  hawlucha-mega: species is gen 6, entry is gen 9
+  sliggoo-hisui: species is gen 6, entry is gen 8
+  goodra-hisui: species is gen 6, entry is gen 8
+  avalugg-hisui: species is gen 6, entry is gen 8
+  zygarde-10-power-construct: species is gen 6, entry is gen 7
+  zygarde-50-power-construct: species is gen 6, entry is gen 7
+  zygarde-complete: species is gen 6, entry is gen 7
+  zygarde-10: species is gen 6, entry is gen 7
+  decidueye-hisui: species is gen 7, entry is gen 8
+  crabominable-mega: species is gen 7, entry is gen 9
+  golisopod-mega: species is gen 7, entry is gen 9
+  drampa-mega: species is gen 7, entry is gen 9
+  magearna-mega: species is gen 7, entry is gen 9
+  magearna-original-mega: species is gen 7, entry is gen 9
+  zeraora-mega: species is gen 7, entry is gen 9
+  melmetal-gmax: species is gen 7, entry is gen 8
+  falinks-mega: species is gen 8, entry is gen 9
+  ursaluna-bloodmoon: species is gen 8, entry is gen 9
+
+entries whose games map to no region (0)
+------------------------------------------
+
+entries per region (10)
+------------------------
+  alola    171
+  galar    221
+  hisui    28
+  hoenn    168
+  johto    126
+  kalos    202
+  kanto    157
+  paldea   142
+  sinnoh   138
+  unova    177
+
+region of every entry, from the games that introduced it (1530)
+--------------------------------------------------------------
+  bulbasaur                          kanto    red-green-japan
+  ivysaur                            kanto    red-green-japan
+  venusaur                           kanto    red-green-japan
+  venusaur-mega                      kalos    x-y
+  venusaur-gmax                      galar    sword-shield
+  charmander                         kanto    red-green-japan
+  charmeleon                         kanto    red-green-japan
+  charizard                          kanto    red-green-japan
+  charizard-mega-x                   kalos    x-y
+  charizard-mega-y                   kalos    x-y
+  charizard-gmax                     galar    sword-shield
+  squirtle                           kanto    red-green-japan
+  wartortle                          kanto    red-green-japan
+  blastoise                          kanto    red-green-japan
+  blastoise-mega                     kalos    x-y
+  blastoise-gmax                     galar    sword-shield
+  caterpie                           kanto    red-green-japan
+  metapod                            kanto    red-green-japan
+  butterfree                         kanto    red-green-japan
+  butterfree-gmax                    galar    sword-shield
+  weedle                             kanto    red-green-japan
+  kakuna                             kanto    red-green-japan
+  beedrill                           kanto    red-green-japan
+  beedrill-mega                      hoenn    omega-ruby-alpha-sapphire
+  pidgey                             kanto    red-green-japan
+  pidgeotto                          kanto    red-green-japan
+  pidgeot                            kanto    red-green-japan
+  pidgeot-mega                       hoenn    omega-ruby-alpha-sapphire
+  rattata                            kanto    red-green-japan
+  rattata-alola                      alola    sun-moon
+  raticate                           kanto    red-green-japan
+  raticate-alola                     alola    sun-moon
+  raticate-totem-alola               alola    sun-moon
+  spearow                            kanto    red-green-japan
+  fearow                             kanto    red-green-japan
+  ekans                              kanto    red-green-japan
+  arbok                              kanto    red-green-japan
+  pikachu                            kanto    red-green-japan
+  pikachu-rock-star                  hoenn    omega-ruby-alpha-sapphire
+  pikachu-belle                      hoenn    omega-ruby-alpha-sapphire
+  pikachu-pop-star                   hoenn    omega-ruby-alpha-sapphire
+  pikachu-phd                        hoenn    omega-ruby-alpha-sapphire
+  pikachu-libre                      hoenn    omega-ruby-alpha-sapphire
+  pikachu-cosplay                    hoenn    omega-ruby-alpha-sapphire
+  pikachu-original-cap               alola    sun-moon
+  pikachu-hoenn-cap                  alola    sun-moon
+  pikachu-sinnoh-cap                 alola    sun-moon
+  pikachu-unova-cap                  alola    sun-moon
+  pikachu-kalos-cap                  alola    sun-moon
+  pikachu-alola-cap                  alola    sun-moon
+  pikachu-partner-cap                alola    ultra-sun-ultra-moon
+  pikachu-starter                    kanto    lets-go-pikachu-lets-go-eevee
+  pikachu-world-cap                  galar    sword-shield
+  pikachu-gmax                       galar    sword-shield
+  raichu                             kanto    red-green-japan
+  raichu-alola                       alola    sun-moon
+  raichu-mega-x                      kalos    mega-dimension
+  raichu-mega-y                      kalos    mega-dimension
+  sandshrew                          kanto    red-green-japan
+  sandshrew-alola                    alola    sun-moon
+  sandslash                          kanto    red-green-japan
+  sandslash-alola                    alola    sun-moon
+  nidoran-f                          kanto    red-green-japan
+  nidorina                           kanto    red-green-japan
+  nidoqueen                          kanto    red-green-japan
+  nidoran-m                          kanto    red-green-japan
+  nidorino                           kanto    red-green-japan
+  nidoking                           kanto    red-green-japan
+  clefairy                           kanto    red-green-japan
+  clefable                           kanto    red-green-japan
+  clefable-mega                      kalos    mega-dimension
+  vulpix                             kanto    red-green-japan
+  vulpix-alola                       alola    sun-moon
+  ninetales                          kanto    red-green-japan
+  ninetales-alola                    alola    sun-moon
+  jigglypuff                         kanto    red-green-japan
+  wigglytuff                         kanto    red-green-japan
+  zubat                              kanto    red-green-japan
+  golbat                             kanto    red-green-japan
+  oddish                             kanto    red-green-japan
+  gloom                              kanto    red-green-japan
+  vileplume                          kanto    red-green-japan
+  paras                              kanto    red-green-japan
+  parasect                           kanto    red-green-japan
+  venonat                            kanto    red-green-japan
+  venomoth                           kanto    red-green-japan
+  diglett                            kanto    red-green-japan
+  diglett-alola                      alola    sun-moon
+  dugtrio                            kanto    red-green-japan
+  dugtrio-alola                      alola    sun-moon
+  meowth                             kanto    red-green-japan
+  meowth-alola                       alola    sun-moon
+  meowth-galar                       galar    sword-shield
+  meowth-gmax                        galar    sword-shield
+  persian                            kanto    red-green-japan
+  persian-alola                      alola    sun-moon
+  psyduck                            kanto    red-green-japan
+  golduck                            kanto    red-green-japan
+  mankey                             kanto    red-green-japan
+  primeape                           kanto    red-green-japan
+  growlithe                          kanto    red-green-japan
+  growlithe-hisui                    hisui    legends-arceus
+  arcanine                           kanto    red-green-japan
+  arcanine-hisui                     hisui    legends-arceus
+  poliwag                            kanto    red-green-japan
+  poliwhirl                          kanto    red-green-japan
+  poliwrath                          kanto    red-green-japan
+  abra                               kanto    red-green-japan
+  kadabra                            kanto    red-green-japan
+  alakazam                           kanto    red-green-japan
+  alakazam-mega                      kalos    x-y
+  machop                             kanto    red-green-japan
+  machoke                            kanto    red-green-japan
+  machamp                            kanto    red-green-japan
+  machamp-gmax                       galar    sword-shield
+  bellsprout                         kanto    red-green-japan
+  weepinbell                         kanto    red-green-japan
+  victreebel                         kanto    red-green-japan
+  victreebel-mega                    kalos    mega-dimension
+  tentacool                          kanto    red-green-japan
+  tentacruel                         kanto    red-green-japan
+  geodude                            kanto    red-green-japan
+  geodude-alola                      alola    sun-moon
+  graveler                           kanto    red-green-japan
+  graveler-alola                     alola    sun-moon
+  golem                              kanto    red-green-japan
+  golem-alola                        alola    sun-moon
+  ponyta                             kanto    red-green-japan
+  ponyta-galar                       galar    sword-shield
+  rapidash                           kanto    red-green-japan
+  rapidash-galar                     galar    sword-shield
+  slowpoke                           kanto    red-green-japan
+  slowpoke-galar                     galar    sword-shield
+  slowbro                            kanto    red-green-japan
+  slowbro-mega                       hoenn    omega-ruby-alpha-sapphire
+  slowbro-galar                      galar    sword-shield
+  magnemite                          kanto    red-green-japan
+  magneton                           kanto    red-green-japan
+  farfetchd                          kanto    red-green-japan
+  farfetchd-galar                    galar    sword-shield
+  doduo                              kanto    red-green-japan
+  dodrio                             kanto    red-green-japan
+  seel                               kanto    red-green-japan
+  dewgong                            kanto    red-green-japan
+  grimer                             kanto    red-green-japan
+  grimer-alola                       alola    sun-moon
+  muk                                kanto    red-green-japan
+  muk-alola                          alola    sun-moon
+  shellder                           kanto    red-green-japan
+  cloyster                           kanto    red-green-japan
+  gastly                             kanto    red-green-japan
+  haunter                            kanto    red-green-japan
+  gengar                             kanto    red-green-japan
+  gengar-mega                        kalos    x-y
+  gengar-gmax                        galar    sword-shield
+  onix                               kanto    red-green-japan
+  drowzee                            kanto    red-green-japan
+  hypno                              kanto    red-green-japan
+  krabby                             kanto    red-green-japan
+  kingler                            kanto    red-green-japan
+  kingler-gmax                       galar    sword-shield
+  voltorb                            kanto    red-green-japan
+  voltorb-hisui                      hisui    legends-arceus
+  electrode                          kanto    red-green-japan
+  electrode-hisui                    hisui    legends-arceus
+  exeggcute                          kanto    red-green-japan
+  exeggutor                          kanto    red-green-japan
+  exeggutor-alola                    alola    sun-moon
+  cubone                             kanto    red-green-japan
+  marowak                            kanto    red-green-japan
+  marowak-alola                      alola    sun-moon
+  marowak-totem                      alola    ultra-sun-ultra-moon
+  hitmonlee                          kanto    red-green-japan
+  hitmonchan                         kanto    red-green-japan
+  lickitung                          kanto    red-green-japan
+  koffing                            kanto    red-green-japan
+  weezing                            kanto    red-green-japan
+  weezing-galar                      galar    sword-shield
+  rhyhorn                            kanto    red-green-japan
+  rhydon                             kanto    red-green-japan
+  chansey                            kanto    red-green-japan
+  tangela                            kanto    red-green-japan
+  kangaskhan                         kanto    red-green-japan
+  kangaskhan-mega                    kalos    x-y
+  horsea                             kanto    red-green-japan
+  seadra                             kanto    red-green-japan
+  goldeen                            kanto    red-green-japan
+  seaking                            kanto    red-green-japan
+  staryu                             kanto    red-green-japan
+  starmie                            kanto    red-green-japan
+  starmie-mega                       kalos    mega-dimension
+  mr-mime                            kanto    red-green-japan
+  mr-mime-galar                      galar    sword-shield
+  scyther                            kanto    red-green-japan
+  jynx                               kanto    red-green-japan
+  electabuzz                         kanto    red-green-japan
+  magmar                             kanto    red-green-japan
+  pinsir                             kanto    red-green-japan
+  pinsir-mega                        kalos    x-y
+  tauros                             kanto    red-green-japan
+  tauros-paldea-combat-breed         paldea   scarlet-violet
+  tauros-paldea-blaze-breed          paldea   scarlet-violet
+  tauros-paldea-aqua-breed           paldea   scarlet-violet
+  magikarp                           kanto    red-green-japan
+  gyarados                           kanto    red-green-japan
+  gyarados-mega                      kalos    x-y
+  lapras                             kanto    red-green-japan
+  lapras-gmax                        galar    sword-shield
+  ditto                              kanto    red-green-japan
+  eevee                              kanto    red-green-japan
+  eevee-starter                      kanto    lets-go-pikachu-lets-go-eevee
+  eevee-gmax                         galar    sword-shield
+  vaporeon                           kanto    red-green-japan
+  jolteon                            kanto    red-green-japan
+  flareon                            kanto    red-green-japan
+  porygon                            kanto    red-green-japan
+  omanyte                            kanto    red-green-japan
+  omastar                            kanto    red-green-japan
+  kabuto                             kanto    red-green-japan
+  kabutops                           kanto    red-green-japan
+  aerodactyl                         kanto    red-green-japan
+  aerodactyl-mega                    kalos    x-y
+  snorlax                            kanto    red-green-japan
+  snorlax-gmax                       galar    sword-shield
+  articuno                           kanto    red-green-japan
+  articuno-galar                     galar    sword-shield
+  zapdos                             kanto    red-green-japan
+  zapdos-galar                       galar    sword-shield
+  moltres                            kanto    red-green-japan
+  moltres-galar                      galar    sword-shield
+  dratini                            kanto    red-green-japan
+  dragonair                          kanto    red-green-japan
+  dragonite                          kanto    red-green-japan
+  dragonite-mega                     kalos    mega-dimension
+  mewtwo                             kanto    red-green-japan
+  mewtwo-mega-x                      kalos    x-y
+  mewtwo-mega-y                      kalos    x-y
+  mew                                kanto    red-green-japan
+  chikorita                          johto    gold-silver
+  bayleef                            johto    gold-silver
+  meganium                           johto    gold-silver
+  meganium-mega                      kalos    mega-dimension
+  cyndaquil                          johto    gold-silver
+  quilava                            johto    gold-silver
+  typhlosion                         johto    gold-silver
+  typhlosion-hisui                   hisui    legends-arceus
+  totodile                           johto    gold-silver
+  croconaw                           johto    gold-silver
+  feraligatr                         johto    gold-silver
+  feraligatr-mega                    kalos    mega-dimension
+  sentret                            johto    gold-silver
+  furret                             johto    gold-silver
+  hoothoot                           johto    gold-silver
+  noctowl                            johto    gold-silver
+  ledyba                             johto    gold-silver
+  ledian                             johto    gold-silver
+  spinarak                           johto    gold-silver
+  ariados                            johto    gold-silver
+  crobat                             johto    gold-silver
+  chinchou                           johto    gold-silver
+  lanturn                            johto    gold-silver
+  pichu                              johto    gold-silver
+  pichu-spiky-eared                  johto    heartgold-soulsilver
+  cleffa                             johto    gold-silver
+  igglybuff                          johto    gold-silver
+  togepi                             johto    gold-silver
+  togetic                            johto    gold-silver
+  natu                               johto    gold-silver
+  xatu                               johto    gold-silver
+  mareep                             johto    gold-silver
+  flaaffy                            johto    gold-silver
+  ampharos                           johto    gold-silver
+  ampharos-mega                      kalos    x-y
+  bellossom                          johto    gold-silver
+  marill                             johto    gold-silver
+  azumarill                          johto    gold-silver
+  sudowoodo                          johto    gold-silver
+  politoed                           johto    gold-silver
+  hoppip                             johto    gold-silver
+  skiploom                           johto    gold-silver
+  jumpluff                           johto    gold-silver
+  aipom                              johto    gold-silver
+  sunkern                            johto    gold-silver
+  sunflora                           johto    gold-silver
+  yanma                              johto    gold-silver
+  wooper                             johto    gold-silver
+  wooper-paldea                      paldea   scarlet-violet
+  quagsire                           johto    gold-silver
+  espeon                             johto    gold-silver
+  umbreon                            johto    gold-silver
+  murkrow                            johto    gold-silver
+  slowking                           johto    gold-silver
+  slowking-galar                     galar    sword-shield
+  misdreavus                         johto    gold-silver
+  unown                              johto    gold-silver
+  unown-b                            johto    gold-silver
+  unown-c                            johto    gold-silver
+  unown-d                            johto    gold-silver
+  unown-e                            johto    gold-silver
+  unown-f                            johto    gold-silver
+  unown-g                            johto    gold-silver
+  unown-h                            johto    gold-silver
+  unown-i                            johto    gold-silver
+  unown-j                            johto    gold-silver
+  unown-k                            johto    gold-silver
+  unown-l                            johto    gold-silver
+  unown-m                            johto    gold-silver
+  unown-n                            johto    gold-silver
+  unown-o                            johto    gold-silver
+  unown-p                            johto    gold-silver
+  unown-q                            johto    gold-silver
+  unown-r                            johto    gold-silver
+  unown-s                            johto    gold-silver
+  unown-t                            johto    gold-silver
+  unown-u                            johto    gold-silver
+  unown-v                            johto    gold-silver
+  unown-w                            johto    gold-silver
+  unown-x                            johto    gold-silver
+  unown-y                            johto    gold-silver
+  unown-z                            johto    gold-silver
+  unown-exclamation                  hoenn    ruby-sapphire
+  unown-question                     hoenn    ruby-sapphire
+  wobbuffet                          johto    gold-silver
+  girafarig                          johto    gold-silver
+  pineco                             johto    gold-silver
+  forretress                         johto    gold-silver
+  dunsparce                          johto    gold-silver
+  gligar                             johto    gold-silver
+  steelix                            johto    gold-silver
+  steelix-mega                       hoenn    omega-ruby-alpha-sapphire
+  snubbull                           johto    gold-silver
+  granbull                           johto    gold-silver
+  qwilfish                           johto    gold-silver
+  qwilfish-hisui                     hisui    legends-arceus
+  scizor                             johto    gold-silver
+  scizor-mega                        kalos    x-y
+  shuckle                            johto    gold-silver
+  heracross                          johto    gold-silver
+  heracross-mega                     kalos    x-y
+  sneasel                            johto    gold-silver
+  sneasel-hisui                      hisui    legends-arceus
+  teddiursa                          johto    gold-silver
+  ursaring                           johto    gold-silver
+  slugma                             johto    gold-silver
+  magcargo                           johto    gold-silver
+  swinub                             johto    gold-silver
+  piloswine                          johto    gold-silver
+  corsola                            johto    gold-silver
+  corsola-galar                      galar    sword-shield
+  remoraid                           johto    gold-silver
+  octillery                          johto    gold-silver
+  delibird                           johto    gold-silver
+  mantine                            johto    gold-silver
+  skarmory                           johto    gold-silver
+  skarmory-mega                      kalos    mega-dimension
+  houndour                           johto    gold-silver
+  houndoom                           johto    gold-silver
+  houndoom-mega                      kalos    x-y
+  kingdra                            johto    gold-silver
+  phanpy                             johto    gold-silver
+  donphan                            johto    gold-silver
+  porygon2                           johto    gold-silver
+  stantler                           johto    gold-silver
+  smeargle                           johto    gold-silver
+  tyrogue                            johto    gold-silver
+  hitmontop                          johto    gold-silver
+  smoochum                           johto    gold-silver
+  elekid                             johto    gold-silver
+  magby                              johto    gold-silver
+  miltank                            johto    gold-silver
+  blissey                            johto    gold-silver
+  raikou                             johto    gold-silver
+  entei                              johto    gold-silver
+  suicune                            johto    gold-silver
+  larvitar                           johto    gold-silver
+  pupitar                            johto    gold-silver
+  tyranitar                          johto    gold-silver
+  tyranitar-mega                     kalos    x-y
+  lugia                              johto    gold-silver
+  ho-oh                              johto    gold-silver
+  celebi                             johto    gold-silver
+  treecko                            hoenn    ruby-sapphire
+  grovyle                            hoenn    ruby-sapphire
+  sceptile                           hoenn    ruby-sapphire
+  sceptile-mega                      hoenn    omega-ruby-alpha-sapphire
+  torchic                            hoenn    ruby-sapphire
+  combusken                          hoenn    ruby-sapphire
+  blaziken                           hoenn    ruby-sapphire
+  blaziken-mega                      kalos    x-y
+  mudkip                             hoenn    ruby-sapphire
+  marshtomp                          hoenn    ruby-sapphire
+  swampert                           hoenn    ruby-sapphire
+  swampert-mega                      hoenn    omega-ruby-alpha-sapphire
+  poochyena                          hoenn    ruby-sapphire
+  mightyena                          hoenn    ruby-sapphire
+  zigzagoon                          hoenn    ruby-sapphire
+  zigzagoon-galar                    galar    sword-shield
+  linoone                            hoenn    ruby-sapphire
+  linoone-galar                      galar    sword-shield
+  wurmple                            hoenn    ruby-sapphire
+  silcoon                            hoenn    ruby-sapphire
+  beautifly                          hoenn    ruby-sapphire
+  cascoon                            hoenn    ruby-sapphire
+  dustox                             hoenn    ruby-sapphire
+  lotad                              hoenn    ruby-sapphire
+  lombre                             hoenn    ruby-sapphire
+  ludicolo                           hoenn    ruby-sapphire
+  seedot                             hoenn    ruby-sapphire
+  nuzleaf                            hoenn    ruby-sapphire
+  shiftry                            hoenn    ruby-sapphire
+  taillow                            hoenn    ruby-sapphire
+  swellow                            hoenn    ruby-sapphire
+  wingull                            hoenn    ruby-sapphire
+  pelipper                           hoenn    ruby-sapphire
+  ralts                              hoenn    ruby-sapphire
+  kirlia                             hoenn    ruby-sapphire
+  gardevoir                          hoenn    ruby-sapphire
+  gardevoir-mega                     kalos    x-y
+  surskit                            hoenn    ruby-sapphire
+  masquerain                         hoenn    ruby-sapphire
+  shroomish                          hoenn    ruby-sapphire
+  breloom                            hoenn    ruby-sapphire
+  slakoth                            hoenn    ruby-sapphire
+  vigoroth                           hoenn    ruby-sapphire
+  slaking                            hoenn    ruby-sapphire
+  nincada                            hoenn    ruby-sapphire
+  ninjask                            hoenn    ruby-sapphire
+  shedinja                           hoenn    ruby-sapphire
+  whismur                            hoenn    ruby-sapphire
+  loudred                            hoenn    ruby-sapphire
+  exploud                            hoenn    ruby-sapphire
+  makuhita                           hoenn    ruby-sapphire
+  hariyama                           hoenn    ruby-sapphire
+  azurill                            hoenn    ruby-sapphire
+  nosepass                           hoenn    ruby-sapphire
+  skitty                             hoenn    ruby-sapphire
+  delcatty                           hoenn    ruby-sapphire
+  sableye                            hoenn    ruby-sapphire
+  sableye-mega                       hoenn    omega-ruby-alpha-sapphire
+  mawile                             hoenn    ruby-sapphire
+  mawile-mega                        kalos    x-y
+  aron                               hoenn    ruby-sapphire
+  lairon                             hoenn    ruby-sapphire
+  aggron                             hoenn    ruby-sapphire
+  aggron-mega                        kalos    x-y
+  meditite                           hoenn    ruby-sapphire
+  medicham                           hoenn    ruby-sapphire
+  medicham-mega                      kalos    x-y
+  electrike                          hoenn    ruby-sapphire
+  manectric                          hoenn    ruby-sapphire
+  manectric-mega                     kalos    x-y
+  plusle                             hoenn    ruby-sapphire
+  minun                              hoenn    ruby-sapphire
+  volbeat                            hoenn    ruby-sapphire
+  illumise                           hoenn    ruby-sapphire
+  roselia                            hoenn    ruby-sapphire
+  gulpin                             hoenn    ruby-sapphire
+  swalot                             hoenn    ruby-sapphire
+  carvanha                           hoenn    ruby-sapphire
+  sharpedo                           hoenn    ruby-sapphire
+  sharpedo-mega                      hoenn    omega-ruby-alpha-sapphire
+  wailmer                            hoenn    ruby-sapphire
+  wailord                            hoenn    ruby-sapphire
+  numel                              hoenn    ruby-sapphire
+  camerupt                           hoenn    ruby-sapphire
+  camerupt-mega                      hoenn    omega-ruby-alpha-sapphire
+  torkoal                            hoenn    ruby-sapphire
+  spoink                             hoenn    ruby-sapphire
+  grumpig                            hoenn    ruby-sapphire
+  spinda                             hoenn    ruby-sapphire
+  trapinch                           hoenn    ruby-sapphire
+  vibrava                            hoenn    ruby-sapphire
+  flygon                             hoenn    ruby-sapphire
+  cacnea                             hoenn    ruby-sapphire
+  cacturne                           hoenn    ruby-sapphire
+  swablu                             hoenn    ruby-sapphire
+  altaria                            hoenn    ruby-sapphire
+  altaria-mega                       hoenn    omega-ruby-alpha-sapphire
+  zangoose                           hoenn    ruby-sapphire
+  seviper                            hoenn    ruby-sapphire
+  lunatone                           hoenn    ruby-sapphire
+  solrock                            hoenn    ruby-sapphire
+  barboach                           hoenn    ruby-sapphire
+  whiscash                           hoenn    ruby-sapphire
+  corphish                           hoenn    ruby-sapphire
+  crawdaunt                          hoenn    ruby-sapphire
+  baltoy                             hoenn    ruby-sapphire
+  claydol                            hoenn    ruby-sapphire
+  lileep                             hoenn    ruby-sapphire
+  cradily                            hoenn    ruby-sapphire
+  anorith                            hoenn    ruby-sapphire
+  armaldo                            hoenn    ruby-sapphire
+  feebas                             hoenn    ruby-sapphire
+  milotic                            hoenn    ruby-sapphire
+  castform                           hoenn    ruby-sapphire
+  castform-sunny                     hoenn    ruby-sapphire
+  castform-rainy                     hoenn    ruby-sapphire
+  castform-snowy                     hoenn    ruby-sapphire
+  kecleon                            hoenn    ruby-sapphire
+  shuppet                            hoenn    ruby-sapphire
+  banette                            hoenn    ruby-sapphire
+  banette-mega                       kalos    x-y
+  duskull                            hoenn    ruby-sapphire
+  dusclops                           hoenn    ruby-sapphire
+  tropius                            hoenn    ruby-sapphire
+  chimecho                           hoenn    ruby-sapphire
+  chimecho-mega                      kalos    mega-dimension
+  absol                              hoenn    ruby-sapphire
+  absol-mega                         kalos    x-y
+  absol-mega-z                       kalos    mega-dimension
+  wynaut                             hoenn    ruby-sapphire
+  snorunt                            hoenn    ruby-sapphire
+  glalie                             hoenn    ruby-sapphire
+  glalie-mega                        hoenn    omega-ruby-alpha-sapphire
+  spheal                             hoenn    ruby-sapphire
+  sealeo                             hoenn    ruby-sapphire
+  walrein                            hoenn    ruby-sapphire
+  clamperl                           hoenn    ruby-sapphire
+  huntail                            hoenn    ruby-sapphire
+  gorebyss                           hoenn    ruby-sapphire
+  relicanth                          hoenn    ruby-sapphire
+  luvdisc                            hoenn    ruby-sapphire
+  bagon                              hoenn    ruby-sapphire
+  shelgon                            hoenn    ruby-sapphire
+  salamence                          hoenn    ruby-sapphire
+  salamence-mega                     hoenn    omega-ruby-alpha-sapphire
+  beldum                             hoenn    ruby-sapphire
+  metang                             hoenn    ruby-sapphire
+  metagross                          hoenn    ruby-sapphire
+  metagross-mega                     hoenn    omega-ruby-alpha-sapphire
+  regirock                           hoenn    ruby-sapphire
+  regice                             hoenn    ruby-sapphire
+  registeel                          hoenn    ruby-sapphire
+  latias                             hoenn    ruby-sapphire
+  latias-mega                        kalos    x-y
+  latios                             hoenn    ruby-sapphire
+  latios-mega                        kalos    x-y
+  kyogre                             hoenn    ruby-sapphire
+  kyogre-primal                      hoenn    omega-ruby-alpha-sapphire
+  groudon                            hoenn    ruby-sapphire
+  groudon-primal                     hoenn    omega-ruby-alpha-sapphire
+  rayquaza                           hoenn    ruby-sapphire
+  rayquaza-mega                      hoenn    omega-ruby-alpha-sapphire
+  jirachi                            hoenn    ruby-sapphire
+  deoxys-normal                      hoenn    ruby-sapphire
+  deoxys-attack                      kanto    firered-leafgreen
+  deoxys-defense                     kanto    firered-leafgreen
+  deoxys-speed                       hoenn    emerald
+  turtwig                            sinnoh   diamond-pearl
+  grotle                             sinnoh   diamond-pearl
+  torterra                           sinnoh   diamond-pearl
+  chimchar                           sinnoh   diamond-pearl
+  monferno                           sinnoh   diamond-pearl
+  infernape                          sinnoh   diamond-pearl
+  piplup                             sinnoh   diamond-pearl
+  prinplup                           sinnoh   diamond-pearl
+  empoleon                           sinnoh   diamond-pearl
+  starly                             sinnoh   diamond-pearl
+  staravia                           sinnoh   diamond-pearl
+  staraptor                          sinnoh   diamond-pearl
+  staraptor-mega                     kalos    mega-dimension
+  bidoof                             sinnoh   diamond-pearl
+  bibarel                            sinnoh   diamond-pearl
+  kricketot                          sinnoh   diamond-pearl
+  kricketune                         sinnoh   diamond-pearl
+  shinx                              sinnoh   diamond-pearl
+  luxio                              sinnoh   diamond-pearl
+  luxray                             sinnoh   diamond-pearl
+  budew                              sinnoh   diamond-pearl
+  roserade                           sinnoh   diamond-pearl
+  cranidos                           sinnoh   diamond-pearl
+  rampardos                          sinnoh   diamond-pearl
+  shieldon                           sinnoh   diamond-pearl
+  bastiodon                          sinnoh   diamond-pearl
+  burmy                              sinnoh   diamond-pearl
+  burmy-sandy                        sinnoh   diamond-pearl
+  burmy-trash                        sinnoh   diamond-pearl
+  wormadam-plant                     sinnoh   diamond-pearl
+  wormadam-sandy                     sinnoh   diamond-pearl
+  wormadam-trash                     sinnoh   diamond-pearl
+  mothim                             sinnoh   diamond-pearl
+  combee                             sinnoh   diamond-pearl
+  vespiquen                          sinnoh   diamond-pearl
+  pachirisu                          sinnoh   diamond-pearl
+  buizel                             sinnoh   diamond-pearl
+  floatzel                           sinnoh   diamond-pearl
+  cherubi                            sinnoh   diamond-pearl
+  cherrim                            sinnoh   diamond-pearl
+  cherrim-sunshine                   sinnoh   diamond-pearl
+  shellos                            sinnoh   diamond-pearl
+  shellos-east                       sinnoh   diamond-pearl
+  gastrodon                          sinnoh   diamond-pearl
+  gastrodon-east                     sinnoh   diamond-pearl
+  ambipom                            sinnoh   diamond-pearl
+  drifloon                           sinnoh   diamond-pearl
+  drifblim                           sinnoh   diamond-pearl
+  buneary                            sinnoh   diamond-pearl
+  lopunny                            sinnoh   diamond-pearl
+  lopunny-mega                       hoenn    omega-ruby-alpha-sapphire
+  mismagius                          sinnoh   diamond-pearl
+  honchkrow                          sinnoh   diamond-pearl
+  glameow                            sinnoh   diamond-pearl
+  purugly                            sinnoh   diamond-pearl
+  chingling                          sinnoh   diamond-pearl
+  stunky                             sinnoh   diamond-pearl
+  skuntank                           sinnoh   diamond-pearl
+  bronzor                            sinnoh   diamond-pearl
+  bronzong                           sinnoh   diamond-pearl
+  bonsly                             sinnoh   diamond-pearl
+  mime-jr                            sinnoh   diamond-pearl
+  happiny                            sinnoh   diamond-pearl
+  chatot                             sinnoh   diamond-pearl
+  spiritomb                          sinnoh   diamond-pearl
+  gible                              sinnoh   diamond-pearl
+  gabite                             sinnoh   diamond-pearl
+  garchomp                           sinnoh   diamond-pearl
+  garchomp-mega                      kalos    x-y
+  garchomp-mega-z                    kalos    mega-dimension
+  munchlax                           sinnoh   diamond-pearl
+  riolu                              sinnoh   diamond-pearl
+  lucario                            sinnoh   diamond-pearl
+  lucario-mega                       kalos    x-y
+  lucario-mega-z                     kalos    mega-dimension
+  hippopotas                         sinnoh   diamond-pearl
+  hippowdon                          sinnoh   diamond-pearl
+  skorupi                            sinnoh   diamond-pearl
+  drapion                            sinnoh   diamond-pearl
+  croagunk                           sinnoh   diamond-pearl
+  toxicroak                          sinnoh   diamond-pearl
+  carnivine                          sinnoh   diamond-pearl
+  finneon                            sinnoh   diamond-pearl
+  lumineon                           sinnoh   diamond-pearl
+  mantyke                            sinnoh   diamond-pearl
+  snover                             sinnoh   diamond-pearl
+  abomasnow                          sinnoh   diamond-pearl
+  abomasnow-mega                     kalos    x-y
+  weavile                            sinnoh   diamond-pearl
+  magnezone                          sinnoh   diamond-pearl
+  lickilicky                         sinnoh   diamond-pearl
+  rhyperior                          sinnoh   diamond-pearl
+  tangrowth                          sinnoh   diamond-pearl
+  electivire                         sinnoh   diamond-pearl
+  magmortar                          sinnoh   diamond-pearl
+  togekiss                           sinnoh   diamond-pearl
+  yanmega                            sinnoh   diamond-pearl
+  leafeon                            sinnoh   diamond-pearl
+  glaceon                            sinnoh   diamond-pearl
+  gliscor                            sinnoh   diamond-pearl
+  mamoswine                          sinnoh   diamond-pearl
+  porygon-z                          sinnoh   diamond-pearl
+  gallade                            sinnoh   diamond-pearl
+  gallade-mega                       hoenn    omega-ruby-alpha-sapphire
+  probopass                          sinnoh   diamond-pearl
+  dusknoir                           sinnoh   diamond-pearl
+  froslass                           sinnoh   diamond-pearl
+  froslass-mega                      kalos    mega-dimension
+  rotom                              sinnoh   diamond-pearl
+  rotom-heat                         sinnoh   platinum
+  rotom-wash                         sinnoh   platinum
+  rotom-frost                        sinnoh   platinum
+  rotom-fan                          sinnoh   platinum
+  rotom-mow                          sinnoh   platinum
+  uxie                               sinnoh   diamond-pearl
+  mesprit                            sinnoh   diamond-pearl
+  azelf                              sinnoh   diamond-pearl
+  dialga                             sinnoh   diamond-pearl
+  dialga-origin                      hisui    legends-arceus
+  palkia                             sinnoh   diamond-pearl
+  palkia-origin                      hisui    legends-arceus
+  heatran                            sinnoh   diamond-pearl
+  heatran-mega                       kalos    mega-dimension
+  regigigas                          sinnoh   diamond-pearl
+  giratina-altered                   sinnoh   diamond-pearl
+  giratina-origin                    sinnoh   platinum
+  cresselia                          sinnoh   diamond-pearl
+  phione                             sinnoh   diamond-pearl
+  manaphy                            sinnoh   diamond-pearl
+  darkrai                            sinnoh   diamond-pearl
+  darkrai-mega                       kalos    mega-dimension
+  shaymin-land                       sinnoh   diamond-pearl
+  shaymin-sky                        sinnoh   platinum
+  arceus                             sinnoh   diamond-pearl
+  arceus-fighting                    sinnoh   diamond-pearl
+  arceus-flying                      sinnoh   diamond-pearl
+  arceus-poison                      sinnoh   diamond-pearl
+  arceus-ground                      sinnoh   diamond-pearl
+  arceus-rock                        sinnoh   diamond-pearl
+  arceus-bug                         sinnoh   diamond-pearl
+  arceus-ghost                       sinnoh   diamond-pearl
+  arceus-steel                       sinnoh   diamond-pearl
+  arceus-fire                        sinnoh   diamond-pearl
+  arceus-water                       sinnoh   diamond-pearl
+  arceus-grass                       sinnoh   diamond-pearl
+  arceus-electric                    sinnoh   diamond-pearl
+  arceus-psychic                     sinnoh   diamond-pearl
+  arceus-ice                         sinnoh   diamond-pearl
+  arceus-dragon                      sinnoh   diamond-pearl
+  arceus-dark                        sinnoh   diamond-pearl
+  arceus-fairy                       kalos    x-y
+  arceus-unknown                     sinnoh   diamond-pearl
+  victini                            unova    black-white
+  snivy                              unova    black-white
+  servine                            unova    black-white
+  serperior                          unova    black-white
+  tepig                              unova    black-white
+  pignite                            unova    black-white
+  emboar                             unova    black-white
+  emboar-mega                        kalos    mega-dimension
+  oshawott                           unova    black-white
+  dewott                             unova    black-white
+  samurott                           unova    black-white
+  samurott-hisui                     hisui    legends-arceus
+  patrat                             unova    black-white
+  watchog                            unova    black-white
+  lillipup                           unova    black-white
+  herdier                            unova    black-white
+  stoutland                          unova    black-white
+  purrloin                           unova    black-white
+  liepard                            unova    black-white
+  pansage                            unova    black-white
+  simisage                           unova    black-white
+  pansear                            unova    black-white
+  simisear                           unova    black-white
+  panpour                            unova    black-white
+  simipour                           unova    black-white
+  munna                              unova    black-white
+  musharna                           unova    black-white
+  pidove                             unova    black-white
+  tranquill                          unova    black-white
+  unfezant                           unova    black-white
+  blitzle                            unova    black-white
+  zebstrika                          unova    black-white
+  roggenrola                         unova    black-white
+  boldore                            unova    black-white
+  gigalith                           unova    black-white
+  woobat                             unova    black-white
+  swoobat                            unova    black-white
+  drilbur                            unova    black-white
+  excadrill                          unova    black-white
+  excadrill-mega                     kalos    mega-dimension
+  audino                             unova    black-white
+  audino-mega                        hoenn    omega-ruby-alpha-sapphire
+  timburr                            unova    black-white
+  gurdurr                            unova    black-white
+  conkeldurr                         unova    black-white
+  tympole                            unova    black-white
+  palpitoad                          unova    black-white
+  seismitoad                         unova    black-white
+  throh                              unova    black-white
+  sawk                               unova    black-white
+  sewaddle                           unova    black-white
+  swadloon                           unova    black-white
+  leavanny                           unova    black-white
+  venipede                           unova    black-white
+  whirlipede                         unova    black-white
+  scolipede                          unova    black-white
+  scolipede-mega                     kalos    mega-dimension
+  cottonee                           unova    black-white
+  whimsicott                         unova    black-white
+  petilil                            unova    black-white
+  lilligant                          unova    black-white
+  lilligant-hisui                    hisui    legends-arceus
+  basculin-red-striped               unova    black-white
+  basculin-blue-striped              unova    black-white
+  basculin-white-striped             hisui    legends-arceus
+  sandile                            unova    black-white
+  krokorok                           unova    black-white
+  krookodile                         unova    black-white
+  darumaka                           unova    black-white
+  darumaka-galar                     galar    sword-shield
+  darmanitan-standard                unova    black-white
+  darmanitan-zen                     unova    black-white
+  darmanitan-galar-standard          galar    sword-shield
+  darmanitan-galar-zen               galar    sword-shield
+  maractus                           unova    black-white
+  dwebble                            unova    black-white
+  crustle                            unova    black-white
+  scraggy                            unova    black-white
+  scrafty                            unova    black-white
+  scrafty-mega                       kalos    mega-dimension
+  sigilyph                           unova    black-white
+  yamask                             unova    black-white
+  yamask-galar                       galar    sword-shield
+  cofagrigus                         unova    black-white
+  tirtouga                           unova    black-white
+  carracosta                         unova    black-white
+  archen                             unova    black-white
+  archeops                           unova    black-white
+  trubbish                           unova    black-white
+  garbodor                           unova    black-white
+  garbodor-gmax                      galar    sword-shield
+  zorua                              unova    black-white
+  zorua-hisui                        hisui    legends-arceus
+  zoroark                            unova    black-white
+  zoroark-hisui                      hisui    legends-arceus
+  minccino                           unova    black-white
+  cinccino                           unova    black-white
+  gothita                            unova    black-white
+  gothorita                          unova    black-white
+  gothitelle                         unova    black-white
+  solosis                            unova    black-white
+  duosion                            unova    black-white
+  reuniclus                          unova    black-white
+  ducklett                           unova    black-white
+  swanna                             unova    black-white
+  vanillite                          unova    black-white
+  vanillish                          unova    black-white
+  vanilluxe                          unova    black-white
+  deerling                           unova    black-white
+  deerling-summer                    unova    black-white
+  deerling-autumn                    unova    black-white
+  deerling-winter                    unova    black-white
+  sawsbuck                           unova    black-white
+  sawsbuck-summer                    unova    black-white
+  sawsbuck-autumn                    unova    black-white
+  sawsbuck-winter                    unova    black-white
+  emolga                             unova    black-white
+  karrablast                         unova    black-white
+  escavalier                         unova    black-white
+  foongus                            unova    black-white
+  amoonguss                          unova    black-white
+  frillish-male                      unova    black-white
+  frillish-female                    unova    black-white
+  jellicent-male                     unova    black-white
+  jellicent-female                   unova    black-white
+  alomomola                          unova    black-white
+  joltik                             unova    black-white
+  galvantula                         unova    black-white
+  ferroseed                          unova    black-white
+  ferrothorn                         unova    black-white
+  klink                              unova    black-white
+  klang                              unova    black-white
+  klinklang                          unova    black-white
+  tynamo                             unova    black-white
+  eelektrik                          unova    black-white
+  eelektross                         unova    black-white
+  eelektross-mega                    kalos    mega-dimension
+  elgyem                             unova    black-white
+  beheeyem                           unova    black-white
+  litwick                            unova    black-white
+  lampent                            unova    black-white
+  chandelure                         unova    black-white
+  chandelure-mega                    kalos    mega-dimension
+  axew                               unova    black-white
+  fraxure                            unova    black-white
+  haxorus                            unova    black-white
+  cubchoo                            unova    black-white
+  beartic                            unova    black-white
+  cryogonal                          unova    black-white
+  shelmet                            unova    black-white
+  accelgor                           unova    black-white
+  stunfisk                           unova    black-white
+  stunfisk-galar                     galar    sword-shield
+  mienfoo                            unova    black-white
+  mienshao                           unova    black-white
+  druddigon                          unova    black-white
+  golett                             unova    black-white
+  golurk                             unova    black-white
+  golurk-mega                        kalos    mega-dimension
+  pawniard                           unova    black-white
+  bisharp                            unova    black-white
+  bouffalant                         unova    black-white
+  rufflet                            unova    black-white
+  braviary                           unova    black-white
+  braviary-hisui                     hisui    legends-arceus
+  vullaby                            unova    black-white
+  mandibuzz                          unova    black-white
+  heatmor                            unova    black-white
+  durant                             unova    black-white
+  deino                              unova    black-white
+  zweilous                           unova    black-white
+  hydreigon                          unova    black-white
+  larvesta                           unova    black-white
+  volcarona                          unova    black-white
+  cobalion                           unova    black-white
+  terrakion                          unova    black-white
+  virizion                           unova    black-white
+  tornadus-incarnate                 unova    black-white
+  tornadus-therian                   unova    black-2-white-2
+  thundurus-incarnate                unova    black-white
+  thundurus-therian                  unova    black-2-white-2
+  reshiram                           unova    black-white
+  zekrom                             unova    black-white
+  landorus-incarnate                 unova    black-white
+  landorus-therian                   unova    black-2-white-2
+  kyurem                             unova    black-white
+  kyurem-black                       unova    black-2-white-2
+  kyurem-white                       unova    black-2-white-2
+  keldeo-ordinary                    unova    black-white
+  keldeo-resolute                    unova    black-2-white-2
+  meloetta-aria                      unova    black-white
+  meloetta-pirouette                 unova    black-white
+  genesect                           unova    black-white
+  genesect-douse                     unova    black-white
+  genesect-shock                     unova    black-white
+  genesect-burn                      unova    black-white
+  genesect-chill                     unova    black-white
+  chespin                            kalos    x-y
+  quilladin                          kalos    x-y
+  chesnaught                         kalos    x-y
+  chesnaught-mega                    kalos    mega-dimension
+  fennekin                           kalos    x-y
+  braixen                            kalos    x-y
+  delphox                            kalos    x-y
+  delphox-mega                       kalos    mega-dimension
+  froakie                            kalos    x-y
+  frogadier                          kalos    x-y
+  greninja                           kalos    x-y
+  greninja-battle-bond               alola    sun-moon
+  greninja-ash                       alola    sun-moon
+  greninja-mega                      kalos    mega-dimension
+  bunnelby                           kalos    x-y
+  diggersby                          kalos    x-y
+  fletchling                         kalos    x-y
+  fletchinder                        kalos    x-y
+  talonflame                         kalos    x-y
+  scatterbug                         kalos    x-y
+  spewpa                             kalos    x-y
+  vivillon                           kalos    x-y
+  vivillon-icy-snow                  kalos    x-y
+  vivillon-polar                     kalos    x-y
+  vivillon-tundra                    kalos    x-y
+  vivillon-continental               kalos    x-y
+  vivillon-garden                    kalos    x-y
+  vivillon-elegant                   kalos    x-y
+  vivillon-modern                    kalos    x-y
+  vivillon-marine                    kalos    x-y
+  vivillon-archipelago               kalos    x-y
+  vivillon-high-plains               kalos    x-y
+  vivillon-sandstorm                 kalos    x-y
+  vivillon-river                     kalos    x-y
+  vivillon-monsoon                   kalos    x-y
+  vivillon-savanna                   kalos    x-y
+  vivillon-sun                       kalos    x-y
+  vivillon-ocean                     kalos    x-y
+  vivillon-jungle                    kalos    x-y
+  vivillon-fancy                     kalos    x-y
+  vivillon-poke-ball                 kalos    x-y
+  litleo                             kalos    x-y
+  pyroar-male                        kalos    x-y
+  pyroar-female                      kalos    x-y
+  pyroar-mega                        kalos    mega-dimension
+  flabebe                            kalos    x-y
+  flabebe-yellow                     kalos    x-y
+  flabebe-orange                     kalos    x-y
+  flabebe-blue                       kalos    x-y
+  flabebe-white                      kalos    x-y
+  floette                            kalos    x-y
+  floette-yellow                     kalos    x-y
+  floette-orange                     kalos    x-y
+  floette-blue                       kalos    x-y
+  floette-white                      kalos    x-y
+  floette-eternal                    kalos    x-y
+  floette-mega                       kalos    mega-dimension
+  florges                            kalos    x-y
+  florges-yellow                     kalos    x-y
+  florges-orange                     kalos    x-y
+  florges-blue                       kalos    x-y
+  florges-white                      kalos    x-y
+  skiddo                             kalos    x-y
+  gogoat                             kalos    x-y
+  pancham                            kalos    x-y
+  pangoro                            kalos    x-y
+  furfrou                            kalos    x-y
+  furfrou-heart                      kalos    x-y
+  furfrou-star                       kalos    x-y
+  furfrou-diamond                    kalos    x-y
+  furfrou-debutante                  kalos    x-y
+  furfrou-matron                     kalos    x-y
+  furfrou-dandy                      kalos    x-y
+  furfrou-la-reine                   kalos    x-y
+  furfrou-kabuki                     kalos    x-y
+  furfrou-pharaoh                    kalos    x-y
+  espurr                             kalos    x-y
+  meowstic-male                      kalos    x-y
+  meowstic-female                    kalos    x-y
+  meowstic-male-mega                 kalos    mega-dimension
+  meowstic-female-mega               kalos    mega-dimension
+  honedge                            kalos    x-y
+  doublade                           kalos    x-y
+  aegislash-shield                   kalos    x-y
+  aegislash-blade                    kalos    x-y
+  spritzee                           kalos    x-y
+  aromatisse                         kalos    x-y
+  swirlix                            kalos    x-y
+  slurpuff                           kalos    x-y
+  inkay                              kalos    x-y
+  malamar                            kalos    x-y
+  malamar-mega                       kalos    mega-dimension
+  binacle                            kalos    x-y
+  barbaracle                         kalos    x-y
+  barbaracle-mega                    kalos    mega-dimension
+  skrelp                             kalos    x-y
+  dragalge                           kalos    x-y
+  dragalge-mega                      kalos    mega-dimension
+  clauncher                          kalos    x-y
+  clawitzer                          kalos    x-y
+  helioptile                         kalos    x-y
+  heliolisk                          kalos    x-y
+  tyrunt                             kalos    x-y
+  tyrantrum                          kalos    x-y
+  amaura                             kalos    x-y
+  aurorus                            kalos    x-y
+  sylveon                            kalos    x-y
+  hawlucha                           kalos    x-y
+  hawlucha-mega                      kalos    mega-dimension
+  dedenne                            kalos    x-y
+  carbink                            kalos    x-y
+  goomy                              kalos    x-y
+  sliggoo                            kalos    x-y
+  sliggoo-hisui                      hisui    legends-arceus
+  goodra                             kalos    x-y
+  goodra-hisui                       hisui    legends-arceus
+  klefki                             kalos    x-y
+  phantump                           kalos    x-y
+  trevenant                          kalos    x-y
+  pumpkaboo-average                  kalos    x-y
+  pumpkaboo-small                    kalos    x-y
+  pumpkaboo-large                    kalos    x-y
+  pumpkaboo-super                    kalos    x-y
+  gourgeist-average                  kalos    x-y
+  gourgeist-small                    kalos    x-y
+  gourgeist-large                    kalos    x-y
+  gourgeist-super                    kalos    x-y
+  bergmite                           kalos    x-y
+  avalugg                            kalos    x-y
+  avalugg-hisui                      hisui    legends-arceus
+  noibat                             kalos    x-y
+  noivern                            kalos    x-y
+  xerneas                            kalos    x-y
+  xerneas-active                     kalos    x-y
+  yveltal                            kalos    x-y
+  zygarde-50                         kalos    x-y
+  zygarde-10-power-construct         alola    sun-moon
+  zygarde-50-power-construct         alola    sun-moon
+  zygarde-complete                   alola    sun-moon
+  zygarde-10                         alola    sun-moon
+  diancie                            kalos    x-y
+  diancie-mega                       hoenn    omega-ruby-alpha-sapphire
+  hoopa                              kalos    x-y
+  hoopa-unbound                      hoenn    omega-ruby-alpha-sapphire
+  volcanion                          kalos    x-y
+  rowlet                             alola    sun-moon
+  dartrix                            alola    sun-moon
+  decidueye                          alola    sun-moon
+  decidueye-hisui                    hisui    legends-arceus
+  litten                             alola    sun-moon
+  torracat                           alola    sun-moon
+  incineroar                         alola    sun-moon
+  popplio                            alola    sun-moon
+  brionne                            alola    sun-moon
+  primarina                          alola    sun-moon
+  pikipek                            alola    sun-moon
+  trumbeak                           alola    sun-moon
+  toucannon                          alola    sun-moon
+  yungoos                            alola    sun-moon
+  gumshoos                           alola    sun-moon
+  gumshoos-totem                     alola    sun-moon
+  grubbin                            alola    sun-moon
+  charjabug                          alola    sun-moon
+  vikavolt                           alola    sun-moon
+  vikavolt-totem                     alola    sun-moon
+  crabrawler                         alola    sun-moon
+  crabominable                       alola    sun-moon
+  crabominable-mega                  kalos    mega-dimension
+  oricorio-baile                     alola    sun-moon
+  oricorio-pom-pom                   alola    sun-moon
+  oricorio-pau                       alola    sun-moon
+  oricorio-sensu                     alola    sun-moon
+  cutiefly                           alola    sun-moon
+  ribombee                           alola    sun-moon
+  ribombee-totem                     alola    ultra-sun-ultra-moon
+  rockruff                           alola    sun-moon
+  rockruff-own-tempo                 alola    ultra-sun-ultra-moon
+  lycanroc-midday                    alola    sun-moon
+  lycanroc-midnight                  alola    sun-moon
+  lycanroc-dusk                      alola    ultra-sun-ultra-moon
+  wishiwashi-solo                    alola    sun-moon
+  wishiwashi-school                  alola    sun-moon
+  mareanie                           alola    sun-moon
+  toxapex                            alola    sun-moon
+  mudbray                            alola    sun-moon
+  mudsdale                           alola    sun-moon
+  dewpider                           alola    sun-moon
+  araquanid                          alola    sun-moon
+  araquanid-totem                    alola    ultra-sun-ultra-moon
+  fomantis                           alola    sun-moon
+  lurantis                           alola    sun-moon
+  lurantis-totem                     alola    sun-moon
+  morelull                           alola    sun-moon
+  shiinotic                          alola    sun-moon
+  salandit                           alola    sun-moon
+  salazzle                           alola    sun-moon
+  salazzle-totem                     alola    sun-moon
+  stufful                            alola    sun-moon
+  bewear                             alola    sun-moon
+  bounsweet                          alola    sun-moon
+  steenee                            alola    sun-moon
+  tsareena                           alola    sun-moon
+  comfey                             alola    sun-moon
+  oranguru                           alola    sun-moon
+  passimian                          alola    sun-moon
+  wimpod                             alola    sun-moon
+  golisopod                          alola    sun-moon
+  golisopod-mega                     kalos    mega-dimension
+  sandygast                          alola    sun-moon
+  palossand                          alola    sun-moon
+  pyukumuku                          alola    sun-moon
+  type-null                          alola    sun-moon
+  silvally                           alola    sun-moon
+  silvally-fighting                  alola    sun-moon
+  silvally-flying                    alola    sun-moon
+  silvally-poison                    alola    sun-moon
+  silvally-ground                    alola    sun-moon
+  silvally-rock                      alola    sun-moon
+  silvally-bug                       alola    sun-moon
+  silvally-ghost                     alola    sun-moon
+  silvally-steel                     alola    sun-moon
+  silvally-fire                      alola    sun-moon
+  silvally-water                     alola    sun-moon
+  silvally-grass                     alola    sun-moon
+  silvally-electric                  alola    sun-moon
+  silvally-psychic                   alola    sun-moon
+  silvally-ice                       alola    sun-moon
+  silvally-dragon                    alola    sun-moon
+  silvally-dark                      alola    sun-moon
+  silvally-fairy                     alola    sun-moon
+  minior-red-meteor                  alola    sun-moon
+  minior-orange-meteor               alola    sun-moon
+  minior-yellow-meteor               alola    sun-moon
+  minior-green-meteor                alola    sun-moon
+  minior-blue-meteor                 alola    sun-moon
+  minior-indigo-meteor               alola    sun-moon
+  minior-violet-meteor               alola    sun-moon
+  minior-red                         alola    sun-moon
+  minior-orange                      alola    sun-moon
+  minior-yellow                      alola    sun-moon
+  minior-green                       alola    sun-moon
+  minior-blue                        alola    sun-moon
+  minior-indigo                      alola    sun-moon
+  minior-violet                      alola    sun-moon
+  komala                             alola    sun-moon
+  turtonator                         alola    sun-moon
+  togedemaru                         alola    sun-moon
+  togedemaru-totem                   alola    ultra-sun-ultra-moon
+  mimikyu-disguised                  alola    sun-moon
+  mimikyu-busted                     alola    sun-moon
+  mimikyu-totem-disguised            alola    sun-moon
+  mimikyu-totem-busted               alola    sun-moon
+  bruxish                            alola    sun-moon
+  drampa                             alola    sun-moon
+  drampa-mega                        kalos    mega-dimension
+  dhelmise                           alola    sun-moon
+  jangmo-o                           alola    sun-moon
+  hakamo-o                           alola    sun-moon
+  kommo-o                            alola    sun-moon
+  kommo-o-totem                      alola    sun-moon
+  tapu-koko                          alola    sun-moon
+  tapu-lele                          alola    sun-moon
+  tapu-bulu                          alola    sun-moon
+  tapu-fini                          alola    sun-moon
+  cosmog                             alola    sun-moon
+  cosmoem                            alola    sun-moon
+  solgaleo                           alola    sun-moon
+  lunala                             alola    sun-moon
+  nihilego                           alola    sun-moon
+  buzzwole                           alola    sun-moon
+  pheromosa                          alola    sun-moon
+  xurkitree                          alola    sun-moon
+  celesteela                         alola    sun-moon
+  kartana                            alola    sun-moon
+  guzzlord                           alola    sun-moon
+  necrozma                           alola    sun-moon
+  necrozma-dusk                      alola    ultra-sun-ultra-moon
+  necrozma-dawn                      alola    ultra-sun-ultra-moon
+  necrozma-ultra                     alola    ultra-sun-ultra-moon
+  magearna                           alola    sun-moon
+  magearna-original                  alola    sun-moon
+  magearna-mega                      kalos    mega-dimension
+  magearna-original-mega             kalos    mega-dimension
+  marshadow                          alola    sun-moon
+  poipole                            alola    ultra-sun-ultra-moon
+  naganadel                          alola    ultra-sun-ultra-moon
+  stakataka                          alola    ultra-sun-ultra-moon
+  blacephalon                        alola    ultra-sun-ultra-moon
+  zeraora                            alola    ultra-sun-ultra-moon
+  zeraora-mega                       kalos    mega-dimension
+  meltan                             kanto    lets-go-pikachu-lets-go-eevee
+  melmetal                           kanto    lets-go-pikachu-lets-go-eevee
+  melmetal-gmax                      galar    sword-shield
+  grookey                            galar    sword-shield
+  thwackey                           galar    sword-shield
+  rillaboom                          galar    sword-shield
+  rillaboom-gmax                     galar    sword-shield
+  scorbunny                          galar    sword-shield
+  raboot                             galar    sword-shield
+  cinderace                          galar    sword-shield
+  cinderace-gmax                     galar    sword-shield
+  sobble                             galar    sword-shield
+  drizzile                           galar    sword-shield
+  inteleon                           galar    sword-shield
+  inteleon-gmax                      galar    sword-shield
+  skwovet                            galar    sword-shield
+  greedent                           galar    sword-shield
+  rookidee                           galar    sword-shield
+  corvisquire                        galar    sword-shield
+  corviknight                        galar    sword-shield
+  corviknight-gmax                   galar    sword-shield
+  blipbug                            galar    sword-shield
+  dottler                            galar    sword-shield
+  orbeetle                           galar    sword-shield
+  orbeetle-gmax                      galar    sword-shield
+  nickit                             galar    sword-shield
+  thievul                            galar    sword-shield
+  gossifleur                         galar    sword-shield
+  eldegoss                           galar    sword-shield
+  wooloo                             galar    sword-shield
+  dubwool                            galar    sword-shield
+  chewtle                            galar    sword-shield
+  drednaw                            galar    sword-shield
+  drednaw-gmax                       galar    sword-shield
+  yamper                             galar    sword-shield
+  boltund                            galar    sword-shield
+  rolycoly                           galar    sword-shield
+  carkol                             galar    sword-shield
+  coalossal                          galar    sword-shield
+  coalossal-gmax                     galar    sword-shield
+  applin                             galar    sword-shield
+  flapple                            galar    sword-shield
+  flapple-gmax                       galar    sword-shield
+  appletun                           galar    sword-shield
+  appletun-gmax                      galar    sword-shield
+  silicobra                          galar    sword-shield
+  sandaconda                         galar    sword-shield
+  sandaconda-gmax                    galar    sword-shield
+  cramorant                          galar    sword-shield
+  cramorant-gulping                  galar    sword-shield
+  cramorant-gorging                  galar    sword-shield
+  arrokuda                           galar    sword-shield
+  barraskewda                        galar    sword-shield
+  toxel                              galar    sword-shield
+  toxtricity-amped                   galar    sword-shield
+  toxtricity-low-key                 galar    sword-shield
+  toxtricity-amped-gmax              galar    sword-shield
+  toxtricity-low-key-gmax            galar    sword-shield
+  sizzlipede                         galar    sword-shield
+  centiskorch                        galar    sword-shield
+  centiskorch-gmax                   galar    sword-shield
+  clobbopus                          galar    sword-shield
+  grapploct                          galar    sword-shield
+  sinistea                           galar    sword-shield
+  sinistea-antique                   galar    sword-shield
+  polteageist                        galar    sword-shield
+  polteageist-antique                galar    sword-shield
+  hatenna                            galar    sword-shield
+  hattrem                            galar    sword-shield
+  hatterene                          galar    sword-shield
+  hatterene-gmax                     galar    sword-shield
+  impidimp                           galar    sword-shield
+  morgrem                            galar    sword-shield
+  grimmsnarl                         galar    sword-shield
+  grimmsnarl-gmax                    galar    sword-shield
+  obstagoon                          galar    sword-shield
+  perrserker                         galar    sword-shield
+  cursola                            galar    sword-shield
+  sirfetchd                          galar    sword-shield
+  mr-rime                            galar    sword-shield
+  runerigus                          galar    sword-shield
+  milcery                            galar    sword-shield
+  alcremie                           galar    sword-shield
+  alcremie-ruby-cream-strawberry-sweet galar    sword-shield
+  alcremie-matcha-cream-strawberry-sweet galar    sword-shield
+  alcremie-mint-cream-strawberry-sweet galar    sword-shield
+  alcremie-lemon-cream-strawberry-sweet galar    sword-shield
+  alcremie-salted-cream-strawberry-sweet galar    sword-shield
+  alcremie-ruby-swirl-strawberry-sweet galar    sword-shield
+  alcremie-caramel-swirl-strawberry-sweet galar    sword-shield
+  alcremie-rainbow-swirl-strawberry-sweet galar    sword-shield
+  alcremie-vanilla-cream-berry-sweet galar    sword-shield
+  alcremie-ruby-cream-berry-sweet    galar    sword-shield
+  alcremie-matcha-cream-berry-sweet  galar    sword-shield
+  alcremie-mint-cream-berry-sweet    galar    sword-shield
+  alcremie-lemon-cream-berry-sweet   galar    sword-shield
+  alcremie-salted-cream-berry-sweet  galar    sword-shield
+  alcremie-ruby-swirl-berry-sweet    galar    sword-shield
+  alcremie-caramel-swirl-berry-sweet galar    sword-shield
+  alcremie-rainbow-swirl-berry-sweet galar    sword-shield
+  alcremie-vanilla-cream-love-sweet  galar    sword-shield
+  alcremie-ruby-cream-love-sweet     galar    sword-shield
+  alcremie-matcha-cream-love-sweet   galar    sword-shield
+  alcremie-mint-cream-love-sweet     galar    sword-shield
+  alcremie-lemon-cream-love-sweet    galar    sword-shield
+  alcremie-salted-cream-love-sweet   galar    sword-shield
+  alcremie-ruby-swirl-love-sweet     galar    sword-shield
+  alcremie-caramel-swirl-love-sweet  galar    sword-shield
+  alcremie-rainbow-swirl-love-sweet  galar    sword-shield
+  alcremie-vanilla-cream-star-sweet  galar    sword-shield
+  alcremie-ruby-cream-star-sweet     galar    sword-shield
+  alcremie-matcha-cream-star-sweet   galar    sword-shield
+  alcremie-mint-cream-star-sweet     galar    sword-shield
+  alcremie-lemon-cream-star-sweet    galar    sword-shield
+  alcremie-salted-cream-star-sweet   galar    sword-shield
+  alcremie-ruby-swirl-star-sweet     galar    sword-shield
+  alcremie-caramel-swirl-star-sweet  galar    sword-shield
+  alcremie-rainbow-swirl-star-sweet  galar    sword-shield
+  alcremie-vanilla-cream-clover-sweet galar    sword-shield
+  alcremie-ruby-cream-clover-sweet   galar    sword-shield
+  alcremie-matcha-cream-clover-sweet galar    sword-shield
+  alcremie-mint-cream-clover-sweet   galar    sword-shield
+  alcremie-lemon-cream-clover-sweet  galar    sword-shield
+  alcremie-salted-cream-clover-sweet galar    sword-shield
+  alcremie-ruby-swirl-clover-sweet   galar    sword-shield
+  alcremie-caramel-swirl-clover-sweet galar    sword-shield
+  alcremie-rainbow-swirl-clover-sweet galar    sword-shield
+  alcremie-vanilla-cream-flower-sweet galar    sword-shield
+  alcremie-ruby-cream-flower-sweet   galar    sword-shield
+  alcremie-matcha-cream-flower-sweet galar    sword-shield
+  alcremie-mint-cream-flower-sweet   galar    sword-shield
+  alcremie-lemon-cream-flower-sweet  galar    sword-shield
+  alcremie-salted-cream-flower-sweet galar    sword-shield
+  alcremie-ruby-swirl-flower-sweet   galar    sword-shield
+  alcremie-caramel-swirl-flower-sweet galar    sword-shield
+  alcremie-rainbow-swirl-flower-sweet galar    sword-shield
+  alcremie-vanilla-cream-ribbon-sweet galar    sword-shield
+  alcremie-ruby-cream-ribbon-sweet   galar    sword-shield
+  alcremie-matcha-cream-ribbon-sweet galar    sword-shield
+  alcremie-mint-cream-ribbon-sweet   galar    sword-shield
+  alcremie-lemon-cream-ribbon-sweet  galar    sword-shield
+  alcremie-salted-cream-ribbon-sweet galar    sword-shield
+  alcremie-ruby-swirl-ribbon-sweet   galar    sword-shield
+  alcremie-caramel-swirl-ribbon-sweet galar    sword-shield
+  alcremie-rainbow-swirl-ribbon-sweet galar    sword-shield
+  alcremie-gmax                      galar    sword-shield
+  falinks                            galar    sword-shield
+  falinks-mega                       kalos    mega-dimension
+  pincurchin                         galar    sword-shield
+  snom                               galar    sword-shield
+  frosmoth                           galar    sword-shield
+  stonjourner                        galar    sword-shield
+  eiscue-ice                         galar    sword-shield
+  eiscue-noice                       galar    sword-shield
+  indeedee-male                      galar    sword-shield
+  indeedee-female                    galar    sword-shield
+  morpeko-full-belly                 galar    sword-shield
+  morpeko-hangry                     galar    sword-shield
+  cufant                             galar    sword-shield
+  copperajah                         galar    sword-shield
+  copperajah-gmax                    galar    sword-shield
+  dracozolt                          galar    sword-shield
+  arctozolt                          galar    sword-shield
+  dracovish                          galar    sword-shield
+  arctovish                          galar    sword-shield
+  duraludon                          galar    sword-shield
+  duraludon-gmax                     galar    sword-shield
+  dreepy                             galar    sword-shield
+  drakloak                           galar    sword-shield
+  dragapult                          galar    sword-shield
+  zacian                             galar    sword-shield
+  zacian-crowned                     galar    sword-shield
+  zamazenta                          galar    sword-shield
+  zamazenta-crowned                  galar    sword-shield
+  eternatus                          galar    sword-shield
+  eternatus-eternamax                galar    sword-shield
+  kubfu                              galar    sword-shield
+  urshifu-single-strike              galar    sword-shield
+  urshifu-rapid-strike               galar    sword-shield
+  urshifu-single-strike-gmax         galar    sword-shield
+  urshifu-rapid-strike-gmax          galar    sword-shield
+  zarude                             galar    sword-shield
+  zarude-dada                        galar    sword-shield
+  regieleki                          galar    sword-shield
+  regidrago                          galar    sword-shield
+  glastrier                          galar    sword-shield
+  spectrier                          galar    sword-shield
+  calyrex                            galar    sword-shield
+  calyrex-ice                        galar    sword-shield
+  calyrex-shadow                     galar    sword-shield
+  wyrdeer                            hisui    legends-arceus
+  kleavor                            hisui    legends-arceus
+  ursaluna                           hisui    legends-arceus
+  ursaluna-bloodmoon                 paldea   the-teal-mask
+  basculegion-male                   hisui    legends-arceus
+  basculegion-female                 hisui    legends-arceus
+  sneasler                           hisui    legends-arceus
+  overqwil                           hisui    legends-arceus
+  enamorus-incarnate                 hisui    legends-arceus
+  enamorus-therian                   hisui    legends-arceus
+  sprigatito                         paldea   scarlet-violet
+  floragato                          paldea   scarlet-violet
+  meowscarada                        paldea   scarlet-violet
+  fuecoco                            paldea   scarlet-violet
+  crocalor                           paldea   scarlet-violet
+  skeledirge                         paldea   scarlet-violet
+  quaxly                             paldea   scarlet-violet
+  quaxwell                           paldea   scarlet-violet
+  quaquaval                          paldea   scarlet-violet
+  lechonk                            paldea   scarlet-violet
+  oinkologne-male                    paldea   scarlet-violet
+  oinkologne-female                  paldea   scarlet-violet
+  tarountula                         paldea   scarlet-violet
+  spidops                            paldea   scarlet-violet
+  nymble                             paldea   scarlet-violet
+  lokix                              paldea   scarlet-violet
+  pawmi                              paldea   scarlet-violet
+  pawmo                              paldea   scarlet-violet
+  pawmot                             paldea   scarlet-violet
+  tandemaus                          paldea   scarlet-violet
+  maushold-family-of-four            paldea   scarlet-violet
+  maushold-family-of-three           paldea   scarlet-violet
+  fidough                            paldea   scarlet-violet
+  dachsbun                           paldea   scarlet-violet
+  smoliv                             paldea   scarlet-violet
+  dolliv                             paldea   scarlet-violet
+  arboliva                           paldea   scarlet-violet
+  squawkabilly-green-plumage         paldea   scarlet-violet
+  squawkabilly-blue-plumage          paldea   scarlet-violet
+  squawkabilly-yellow-plumage        paldea   scarlet-violet
+  squawkabilly-white-plumage         paldea   scarlet-violet
+  nacli                              paldea   scarlet-violet
+  naclstack                          paldea   scarlet-violet
+  garganacl                          paldea   scarlet-violet
+  charcadet                          paldea   scarlet-violet
+  armarouge                          paldea   scarlet-violet
+  ceruledge                          paldea   scarlet-violet
+  tadbulb                            paldea   scarlet-violet
+  bellibolt                          paldea   scarlet-violet
+  wattrel                            paldea   scarlet-violet
+  kilowattrel                        paldea   scarlet-violet
+  maschiff                           paldea   scarlet-violet
+  mabosstiff                         paldea   scarlet-violet
+  shroodle                           paldea   scarlet-violet
+  grafaiai                           paldea   scarlet-violet
+  bramblin                           paldea   scarlet-violet
+  brambleghast                       paldea   scarlet-violet
+  toedscool                          paldea   scarlet-violet
+  toedscruel                         paldea   scarlet-violet
+  klawf                              paldea   scarlet-violet
+  capsakid                           paldea   scarlet-violet
+  scovillain                         paldea   scarlet-violet
+  scovillain-mega                    kalos    mega-dimension
+  rellor                             paldea   scarlet-violet
+  rabsca                             paldea   scarlet-violet
+  flittle                            paldea   scarlet-violet
+  espathra                           paldea   scarlet-violet
+  tinkatink                          paldea   scarlet-violet
+  tinkatuff                          paldea   scarlet-violet
+  tinkaton                           paldea   scarlet-violet
+  wiglett                            paldea   scarlet-violet
+  wugtrio                            paldea   scarlet-violet
+  bombirdier                         paldea   scarlet-violet
+  finizen                            paldea   scarlet-violet
+  palafin-zero                       paldea   scarlet-violet
+  palafin-hero                       paldea   scarlet-violet
+  varoom                             paldea   scarlet-violet
+  revavroom                          paldea   scarlet-violet
+  cyclizar                           paldea   scarlet-violet
+  orthworm                           paldea   scarlet-violet
+  glimmet                            paldea   scarlet-violet
+  glimmora                           paldea   scarlet-violet
+  glimmora-mega                      kalos    mega-dimension
+  greavard                           paldea   scarlet-violet
+  houndstone                         paldea   scarlet-violet
+  flamigo                            paldea   scarlet-violet
+  cetoddle                           paldea   scarlet-violet
+  cetitan                            paldea   scarlet-violet
+  veluza                             paldea   scarlet-violet
+  dondozo                            paldea   scarlet-violet
+  tatsugiri-curly                    paldea   scarlet-violet
+  tatsugiri-droopy                   paldea   scarlet-violet
+  tatsugiri-stretchy                 paldea   scarlet-violet
+  tatsugiri-curly-mega               kalos    mega-dimension
+  tatsugiri-droopy-mega              kalos    mega-dimension
+  tatsugiri-stretchy-mega            kalos    mega-dimension
+  annihilape                         paldea   scarlet-violet
+  clodsire                           paldea   scarlet-violet
+  farigiraf                          paldea   scarlet-violet
+  dudunsparce-two-segment            paldea   scarlet-violet
+  dudunsparce-three-segment          paldea   scarlet-violet
+  kingambit                          paldea   scarlet-violet
+  great-tusk                         paldea   scarlet-violet
+  scream-tail                        paldea   scarlet-violet
+  brute-bonnet                       paldea   scarlet-violet
+  flutter-mane                       paldea   scarlet-violet
+  slither-wing                       paldea   scarlet-violet
+  sandy-shocks                       paldea   scarlet-violet
+  iron-treads                        paldea   scarlet-violet
+  iron-bundle                        paldea   scarlet-violet
+  iron-hands                         paldea   scarlet-violet
+  iron-jugulis                       paldea   scarlet-violet
+  iron-moth                          paldea   scarlet-violet
+  iron-thorns                        paldea   scarlet-violet
+  frigibax                           paldea   scarlet-violet
+  arctibax                           paldea   scarlet-violet
+  baxcalibur                         paldea   scarlet-violet
+  baxcalibur-mega                    kalos    mega-dimension
+  gimmighoul                         paldea   scarlet-violet
+  gimmighoul-roaming                 paldea   scarlet-violet
+  gholdengo                          paldea   scarlet-violet
+  wo-chien                           paldea   scarlet-violet
+  chien-pao                          paldea   scarlet-violet
+  ting-lu                            paldea   scarlet-violet
+  chi-yu                             paldea   scarlet-violet
+  roaring-moon                       paldea   scarlet-violet
+  iron-valiant                       paldea   scarlet-violet
+  koraidon                           paldea   scarlet-violet
+  miraidon                           paldea   scarlet-violet
+  walking-wake                       paldea   scarlet-violet
+  iron-leaves                        paldea   scarlet-violet
+  dipplin                            paldea   the-teal-mask
+  poltchageist                       paldea   the-teal-mask
+  poltchageist-artisan               paldea   the-teal-mask
+  sinistcha                          paldea   the-teal-mask
+  sinistcha-masterpiece              paldea   the-teal-mask
+  okidogi                            paldea   the-teal-mask
+  munkidori                          paldea   the-teal-mask
+  fezandipiti                        paldea   the-teal-mask
+  ogerpon                            paldea   the-teal-mask
+  ogerpon-wellspring-mask            paldea   the-teal-mask
+  ogerpon-hearthflame-mask           paldea   the-teal-mask
+  ogerpon-cornerstone-mask           paldea   the-teal-mask
+  archaludon                         paldea   the-indigo-disk
+  hydrapple                          paldea   the-indigo-disk
+  gouging-fire                       paldea   the-indigo-disk
+  raging-bolt                        paldea   the-indigo-disk
+  iron-boulder                       paldea   the-indigo-disk
+  iron-crown                         paldea   the-indigo-disk
+  terapagos                          paldea   the-indigo-disk
+  terapagos-terastal                 paldea   the-indigo-disk
+  terapagos-stellar                  paldea   the-indigo-disk
+  pecharunt                          paldea   the-indigo-disk
+
+slugs that do not start with their species slug (0)
+-----------------------------------------------------
+
+lookup keys holding a character with no explicit normalization rule (0)
+-------------------------------------------------------------------------
+
+selectors per species (249)
+---------------------------
+  venusaur                 gmax, mega
+  charizard                gmax, megax, megay
+  blastoise                gmax, mega
+  butterfree               gmax
+  beedrill                 mega
+  pidgeot                  mega
+  rattata                  alola
+  raticate                 alola, totemalola
+  pikachu                  alolacap, belle, cosplay, gmax, hoenncap, kaloscap, libre, originalcap, partnercap, phd, popstar, rockstar, sinnohcap, starter, unovacap, worldcap
+  raichu                   alola, megax, megay
+  sandshrew                alola
+  sandslash                alola
+  clefable                 mega
+  vulpix                   alola
+  ninetales                alola
+  diglett                  alola
+  dugtrio                  alola
+  meowth                   alola, galar, gmax
+  persian                  alola
+  growlithe                hisui
+  arcanine                 hisui
+  alakazam                 mega
+  machamp                  gmax
+  victreebel               mega
+  geodude                  alola
+  graveler                 alola
+  golem                    alola
+  ponyta                   galar
+  rapidash                 galar
+  slowpoke                 galar
+  slowbro                  galar, mega
+  farfetchd                galar
+  grimer                   alola
+  muk                      alola
+  gengar                   gmax, mega
+  kingler                  gmax
+  voltorb                  hisui
+  electrode                hisui
+  exeggutor                alola
+  marowak                  alola, totem
+  weezing                  galar
+  kangaskhan               mega
+  starmie                  mega
+  mr-mime                  galar
+  pinsir                   mega
+  tauros                   paldeaaquabreed, paldeablazebreed, paldeacombatbreed
+  gyarados                 mega
+  lapras                   gmax
+  eevee                    gmax, starter
+  aerodactyl               mega
+  snorlax                  gmax
+  articuno                 galar
+  zapdos                   galar
+  moltres                  galar
+  dragonite                mega
+  mewtwo                   megax, megay
+  meganium                 mega
+  typhlosion               hisui
+  feraligatr               mega
+  pichu                    spikyeared
+  ampharos                 mega
+  wooper                   paldea
+  slowking                 galar
+  unown                    a, b, c, d, e, exclamation, f, g, h, i, j, k, l, m, n, o, p, q, question, r, s, t, u, v, w, x, y, z
+  steelix                  mega
+  qwilfish                 hisui
+  scizor                   mega
+  heracross                mega
+  sneasel                  hisui
+  corsola                  galar
+  skarmory                 mega
+  houndoom                 mega
+  tyranitar                mega
+  sceptile                 mega
+  blaziken                 mega
+  swampert                 mega
+  zigzagoon                galar
+  linoone                  galar
+  gardevoir                mega
+  sableye                  mega
+  mawile                   mega
+  aggron                   mega
+  medicham                 mega
+  manectric                mega
+  sharpedo                 mega
+  camerupt                 mega
+  altaria                  mega
+  castform                 rainy, snowy, sunny
+  banette                  mega
+  chimecho                 mega
+  absol                    mega, megaz
+  glalie                   mega
+  salamence                mega
+  metagross                mega
+  latias                   mega
+  latios                   mega
+  kyogre                   primal
+  groudon                  primal
+  rayquaza                 mega
+  deoxys                   attack, defense, normal, speed
+  staraptor                mega
+  burmy                    plant, sandy, trash
+  wormadam                 plant, sandy, trash
+  mothim                   plant
+  cherrim                  overcast, sunshine
+  shellos                  east, west
+  gastrodon                east, west
+  lopunny                  mega
+  garchomp                 mega, megaz
+  lucario                  mega, megaz
+  abomasnow                mega
+  gallade                  mega
+  froslass                 mega
+  rotom                    fan, frost, heat, mow, wash
+  dialga                   origin
+  palkia                   origin
+  heatran                  mega
+  giratina                 altered, origin
+  darkrai                  mega
+  shaymin                  land, sky
+  arceus                   bug, dark, dragon, electric, fairy, fighting, fire, flying, ghost, grass, ground, ice, normal, poison, psychic, rock, steel, unknown, water
+  emboar                   mega
+  samurott                 hisui
+  excadrill                mega
+  audino                   mega
+  scolipede                mega
+  lilligant                hisui
+  basculin                 bluestriped, redstriped, whitestriped
+  darumaka                 galar
+  darmanitan               galarstandard, galarzen, standard, zen
+  scrafty                  mega
+  yamask                   galar
+  garbodor                 gmax
+  zorua                    hisui
+  zoroark                  hisui
+  deerling                 autumn, spring, summer, winter
+  sawsbuck                 autumn, spring, summer, winter
+  frillish                 female, male
+  jellicent                female, male
+  eelektross               mega
+  chandelure               mega
+  stunfisk                 galar
+  golurk                   mega
+  braviary                 hisui
+  tornadus                 incarnate, therian
+  thundurus                incarnate, therian
+  landorus                 incarnate, therian
+  kyurem                   black, white
+  keldeo                   ordinary, resolute
+  meloetta                 aria, pirouette
+  genesect                 burn, chill, douse, shock
+  chesnaught               mega
+  delphox                  mega
+  greninja                 ash, battlebond, mega
+  scatterbug               icysnow
+  spewpa                   icysnow
+  vivillon                 archipelago, continental, elegant, fancy, garden, highplains, icysnow, jungle, marine, meadow, modern, monsoon, ocean, pokeball, polar, river, sandstorm, savanna, sun, tundra
+  pyroar                   female, male, mega
+  flabebe                  blue, orange, red, white, yellow
+  floette                  blue, eternal, mega, orange, red, white, yellow
+  florges                  blue, orange, red, white, yellow
+  furfrou                  dandy, debutante, diamond, heart, kabuki, lareine, matron, natural, pharaoh, star
+  meowstic                 female, femalemega, male, malemega
+  aegislash                blade, shield
+  malamar                  mega
+  barbaracle               mega
+  dragalge                 mega
+  hawlucha                 mega
+  sliggoo                  hisui
+  goodra                   hisui
+  pumpkaboo                average, large, small, super
+  gourgeist                average, large, small, super
+  avalugg                  hisui
+  xerneas                  active, neutral
+  zygarde                  10, 10powerconstruct, 50, 50powerconstruct, complete
+  diancie                  mega
+  hoopa                    unbound
+  decidueye                hisui
+  gumshoos                 totem
+  vikavolt                 totem
+  crabominable             mega
+  oricorio                 baile, pau, pompom, sensu
+  ribombee                 totem
+  rockruff                 owntempo
+  lycanroc                 dusk, midday, midnight
+  wishiwashi               school, solo
+  araquanid                totem
+  lurantis                 totem
+  salazzle                 totem
+  golisopod                mega
+  silvally                 bug, dark, dragon, electric, fairy, fighting, fire, flying, ghost, grass, ground, ice, normal, poison, psychic, rock, steel, water
+  minior                   blue, bluemeteor, green, greenmeteor, indigo, indigometeor, orange, orangemeteor, red, redmeteor, violet, violetmeteor, yellow, yellowmeteor
+  togedemaru               totem
+  mimikyu                  busted, disguised, totembusted, totemdisguised
+  drampa                   mega
+  kommo-o                  totem
+  necrozma                 dawn, dusk, ultra
+  magearna                 mega, original, originalmega
+  zeraora                  mega
+  melmetal                 gmax
+  rillaboom                gmax
+  cinderace                gmax
+  inteleon                 gmax
+  corviknight              gmax
+  orbeetle                 gmax
+  drednaw                  gmax
+  coalossal                gmax
+  flapple                  gmax
+  appletun                 gmax
+  sandaconda               gmax
+  cramorant                gorging, gulping
+  toxtricity               amped, ampedgmax, lowkey, lowkeygmax
+  centiskorch              gmax
+  sinistea                 antique, phony
+  polteageist              antique, phony
+  hatterene                gmax
+  grimmsnarl               gmax
+  alcremie                 caramelswirlberrysweet, caramelswirlcloversweet, caramelswirlflowersweet, caramelswirllovesweet, caramelswirlribbonsweet, caramelswirlstarsweet, caramelswirlstrawberrysweet, gmax, lemoncreamberrysweet, lemoncreamcloversweet, lemoncreamflowersweet, lemoncreamlovesweet, lemoncreamribbonsweet, lemoncreamstarsweet, lemoncreamstrawberrysweet, matchacreamberrysweet, matchacreamcloversweet, matchacreamflowersweet, matchacreamlovesweet, matchacreamribbonsweet, matchacreamstarsweet, matchacreamstrawberrysweet, mintcreamberrysweet, mintcreamcloversweet, mintcreamflowersweet, mintcreamlovesweet, mintcreamribbonsweet, mintcreamstarsweet, mintcreamstrawberrysweet, rainbowswirlberrysweet, rainbowswirlcloversweet, rainbowswirlflowersweet, rainbowswirllovesweet, rainbowswirlribbonsweet, rainbowswirlstarsweet, rainbowswirlstrawberrysweet, rubycreamberrysweet, rubycreamcloversweet, rubycreamflowersweet, rubycreamlovesweet, rubycreamribbonsweet, rubycreamstarsweet, rubycreamstrawberrysweet, rubyswirlberrysweet, rubyswirlcloversweet, rubyswirlflowersweet, rubyswirllovesweet, rubyswirlribbonsweet, rubyswirlstarsweet, rubyswirlstrawberrysweet, saltedcreamberrysweet, saltedcreamcloversweet, saltedcreamflowersweet, saltedcreamlovesweet, saltedcreamribbonsweet, saltedcreamstarsweet, saltedcreamstrawberrysweet, vanillacreamberrysweet, vanillacreamcloversweet, vanillacreamflowersweet, vanillacreamlovesweet, vanillacreamribbonsweet, vanillacreamstarsweet, vanillacreamstrawberrysweet
+  falinks                  mega
+  eiscue                   ice, noice
+  indeedee                 female, male
+  morpeko                  fullbelly, hangry
+  copperajah               gmax
+  duraludon                gmax
+  zacian                   crowned
+  zamazenta                crowned
+  eternatus                eternamax
+  urshifu                  rapidstrike, rapidstrikegmax, singlestrike, singlestrikegmax
+  zarude                   dada
+  calyrex                  ice, shadow
+  ursaluna                 bloodmoon
+  basculegion              female, male
+  enamorus                 incarnate, therian
+  oinkologne               female, male
+  maushold                 familyoffour, familyofthree
+  squawkabilly             blueplumage, greenplumage, whiteplumage, yellowplumage
+  scovillain               mega
+  palafin                  hero, zero
+  glimmora                 mega
+  tatsugiri                curly, curlymega, droopy, droopymega, stretchy, stretchymega
+  dudunsparce              threesegment, twosegment
+  baxcalibur               mega
+  gimmighoul               chest, roaming
+  koraidon                 apexbuild
+  miraidon                 ultimatemode
+  poltchageist             artisan, counterfeit
+  sinistcha                masterpiece, unremarkable
+  ogerpon                  cornerstonemask, hearthflamemask, wellspringmask
+  terapagos                stellar, terastal

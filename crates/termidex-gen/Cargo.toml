@@ -1,0 +1,15 @@
+[package]
+name = "termidex-gen"
+description = "One-off generator that turns the vendored PokeAPI data into termidex's static tables."
+publish = false
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+png = "0.17"
+phf_codegen = "0.11"

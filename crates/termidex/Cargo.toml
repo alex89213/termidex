@@ -1,0 +1,32 @@
+[package]
+name = "termidex"
+description = "Fast, accurate Pokemon sprite and Pokedex viewer for the terminal."
+keywords = ["pokemon", "cli", "terminal", "sprite", "pokedex"]
+categories = ["command-line-utilities"]
+readme = "../../README.md"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+phf = "0.11"
+fastrand = "2"
+strsim = "0.11"
+# only used to wrap --entry text, there is no way to ask the tty for its width without a syscall
+terminal_size = "0.4"
+
+[target.'cfg(windows)'.dependencies]
+enable-ansi-support = "0.2"
+
+[features]
+default = []
+# dynamic shell completion of names and --form selectors
+unstable-dynamic = ["dep:clap_complete", "clap/unstable-ext"]
+
+[dependencies.clap_complete]
+version = "4"
+features = ["unstable-dynamic"]
+optional = true

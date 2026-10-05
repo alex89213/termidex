@@ -1,0 +1,8 @@
+[submodule "vendor/api-data"]
+	path = vendor/api-data
+	url = https://github.com/PokeAPI/api-data
+	shallow = true
+[submodule "vendor/sprites"]
+	path = vendor/sprites
+	url = https://github.com/PokeAPI/sprites
+	shallow = true

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
-# Description:  Fetches the PokeAPI sprite and JSON repos into vendor/ with shallow sparse clones.
-#               Only the endpoints and sprite directories termidex-gen actually reads are pulled.
+# Description:  Checks out the pinned PokeAPI submodules with shallow sparse clones.
+#               Only the endpoints and sprite directories termidex-gen reads are checked out.
 # Author:       Alex Wu
 # Dependencies: git 2.25+ (needs sparse-checkout)
 # Usage:        scripts/fetch-data.sh
@@ -9,22 +9,55 @@
 set -euo pipefail
 
 repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$repo_root"
 vendor="$repo_root/vendor"
 mkdir -p "$vendor"
 
-# a fresh sparse clone, or a re-sync if the clone is already there
-clone_sparse() {
-    local url="$1" dest="$2"
-    if [ -d "$dest/.git" ]; then
-        echo "==> updating $dest"
-        git -C "$dest" pull --ff-only
+# Configure sparse checkout before the first checkout so unused sprite trees aren't downloaded.
+# Existing clones are reused, including older clones with a .git directory rather than a file.
+prepare_submodule() {
+    local path="$1" dest="$repo_root/$1" mode pin stage recorded_path url
+    if ! read -r mode pin stage recorded_path < <(git ls-files --stage -- "$path") \
+        || [ "$mode" != 160000 ] || [ "$stage" != 0 ] || [ "$recorded_path" != "$path" ]; then
+        echo "error: $path has no recorded submodule commit" >&2
+        exit 1
+    fi
+    if [ -e "$dest/.git" ]; then
+        if [ -n "$(git -C "$dest" status --porcelain)" ]; then
+            echo "error: $path has local changes; save them before fetching data" >&2
+            exit 1
+        fi
     else
-        echo "==> cloning $url into $dest"
-        git clone --depth 1 --filter=blob:none --sparse "$url" "$dest"
+        url="$(git config --get "submodule.$path.url")"
+        echo "==> cloning $path"
+        git clone --depth 1 --filter=blob:none --no-checkout "$url" "$dest"
+    fi
+    if ! git -C "$dest" cat-file -e "$pin^{commit}" 2>/dev/null; then
+        echo "==> fetching pinned commit for $path"
+        git -C "$dest" fetch --depth 1 origin "$pin"
     fi
 }
 
-clone_sparse https://github.com/PokeAPI/api-data "$vendor/api-data"
+checkout_submodule() {
+    local path="$1" pin
+    pin="$(git rev-parse ":$path")"
+    echo "==> checking out $path at $pin"
+    git -C "$repo_root/$path" -c advice.detachedHead=false checkout --detach "$pin"
+    git submodule absorbgitdirs -- "$path"
+}
+
+paths=(vendor/api-data vendor/sprites)
+git submodule init -- "${paths[@]}"
+
+# Check both existing worktrees before changing either checkout.
+for path in "${paths[@]}"; do
+    if [ -e "$repo_root/$path/.git" ] && [ -n "$(git -C "$repo_root/$path" status --porcelain)" ]; then
+        echo "error: $path has local changes; save them before fetching data" >&2
+        exit 1
+    fi
+done
+
+prepare_submodule vendor/api-data
 echo "==> selecting api-data endpoints"
 git -C "$vendor/api-data" sparse-checkout set \
     data/api/v2/pokemon \
@@ -33,8 +66,9 @@ git -C "$vendor/api-data" sparse-checkout set \
     data/api/v2/version-group \
     data/api/v2/pokedex \
     data/api/v2/region
+checkout_submodule vendor/api-data
 
-clone_sparse https://github.com/PokeAPI/sprites "$vendor/sprites"
+prepare_submodule vendor/sprites
 echo "==> selecting sprite directories"
 # --no-cone so the patterns can pick single files out of a directory without pulling
 # the versions/ and other/ trees that live alongside them
@@ -43,6 +77,7 @@ git -C "$vendor/sprites" sparse-checkout set --no-cone \
     '/sprites/pokemon/shiny/*.png' \
     '/sprites/pokemon/female/*.png' \
     '/sprites/pokemon/shiny/female/*.png'
+checkout_submodule vendor/sprites
 
 echo
 echo "==> spot checks"
@@ -85,4 +120,4 @@ if [ "$fail" -ne 0 ]; then
 fi
 
 echo
-echo "done. next: cargo run -p termidex-gen --release"
+echo "done. next: cargo run -p termidex-gen --release --locked"

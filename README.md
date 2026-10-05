@@ -24,6 +24,7 @@ cargo install --path crates/termidex --locked
 ```
 
 Run the Cargo command from the repository root. No PokéAPI download or data generation is needed.
+The source submodules can stay uninitialized for normal builds and installs.
 Cargo may download dependencies on the first build. Once the dependencies for your target and
 features are cached, add `--offline` to build without a network connection.
 
@@ -351,19 +352,24 @@ version. They may change when the PokéAPI sources are updated.
 
 ### Regenerate the data
 
-This is only needed when updating the included PokéAPI data:
+The PokéAPI sources are pinned Git submodules under `vendor/`. To reproduce the included data:
 
 ```sh
 scripts/fetch-data.sh
 cargo run -p termidex-gen --release --locked
 ```
 
-The fetch script makes shallow, sparse clones of [PokeAPI/api-data](https://github.com/PokeAPI/api-data)
-and [PokeAPI/sprites](https://github.com/PokeAPI/sprites) in the ignored `vendor/` directory. It requests
-Git's blob filter to avoid downloading unneeded files. Existing clones are updated with a
-fast-forward pull. It selects six JSON endpoints (`pokemon`, `pokemon-species`, `pokemon-form`,
-`version-group`, `pokedex`, and `region`) and the ordinary, shiny, female, and shiny-female front
-sprite directories.
+The fetch script initializes [PokeAPI/api-data](https://github.com/PokeAPI/api-data) and
+[PokeAPI/sprites](https://github.com/PokeAPI/sprites) at the commits recorded by termidex.
+It does not advance them to the latest upstream versions. It makes shallow clones with Git's blob
+filter and configures sparse checkouts before the first checkout. It selects six JSON endpoints
+(`pokemon`, `pokemon-species`, `pokemon-form`, `version-group`, `pokedex`, and `region`) and the
+ordinary, shiny, female, and shiny-female front sprite directories. Existing clones are reused;
+local changes stop the script rather than being discarded.
+
+You can also use `git submodule update --init -- vendor/api-data vendor/sprites` to check out the
+pinned sources, but a fresh checkout through that command downloads their full working trees.
+Use the fetch script to keep the downloads smaller. No submodules are needed to run termidex.
 
 The generator writes these files under `crates/termidex/generated/`:
 
@@ -376,6 +382,22 @@ The generator writes these files under `crates/termidex/generated/`:
 The current sprite blob is about 3.5 MB. The generator checks names, default entries, referenced
 records, stats, type slots, measurements, and sprite paths before writing the tables and blob.
 Review the generated diff and coverage report before committing an update.
+
+### Update the source revisions
+
+To use the latest upstream data, update the submodules explicitly, then regenerate:
+
+```sh
+git submodule update --init --remote --checkout -- vendor/api-data vendor/sprites
+cargo run -p termidex-gen --release --locked
+git diff --submodule
+git add vendor/api-data vendor/sprites crates/termidex/generated
+git commit -m "Update PokéAPI data"
+```
+
+Initialize the sources with `scripts/fetch-data.sh` first to keep sparse checkouts. Review the new
+source commits and generated files before committing them together. Running the fetch script
+before staging an update returns the checkouts to the previously recorded commits.
 
 ## Development checks
 
